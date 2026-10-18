@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+.tools/
+assets/originals/
+*.tsbuildinfo
+.sites-runtime/
+assets/cover-designs/
+docs/**/*.png
+docs/**/*.jpg
+docs/**/*.mp4
