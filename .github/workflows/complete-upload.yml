@@ -1,0 +1,45 @@
+name: Complete verified portfolio upload
+on:
+  push:
+    branches: [codex-upload-complete]
+    paths: [.codex-upload/manifest.json]
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore exact original assets
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
+          import { createHash } from 'node:crypto';
+          import { dirname, resolve, sep } from 'node:path';
+          const root = process.cwd();
+          const manifest = JSON.parse(readFileSync('.codex-upload/manifest.json', 'utf8'));
+          for (const asset of manifest.assets) {
+            const bytes = Buffer.concat(asset.parts.map(part => readFileSync('.codex-upload/' + part)));
+            const sha = createHash('sha1').update('blob ' + bytes.length + '\0').update(bytes).digest('hex');
+            if (sha !== asset.sha || bytes.length !== asset.size) throw new Error('Asset checksum mismatch: ' + asset.sha);
+            for (const target of asset.paths) {
+              const output = resolve(root, target);
+              if (!output.startsWith(root + sep) || target.startsWith('.git/')) throw new Error('Invalid asset path');
+              mkdirSync(dirname(output), { recursive: true });
+              writeFileSync(output, bytes);
+            }
+          }
+          rmSync('.codex-upload', { recursive: true });
+          rmSync('.github/workflows/complete-upload.yml');
+          NODE
+      - name: Verify complete tree and commit to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          test "$(git write-tree)" = "b20e95f1ecbcddf38d3d07cb5f409655b5901ac6"
+          git commit -m "Update complete portfolio source and assets"
+          git push origin HEAD:main
+          git push origin --delete codex-upload-complete
