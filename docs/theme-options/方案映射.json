@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-18",
+  "purpose": "整站视觉统一的三个示意方向；未修改网站实现",
+  "displayOrder": [
+    { "option": 1, "name": "曜石影院", "file": "01-obsidian-cinema.png", "base": "#17171B", "surface": "#212127", "text": "#F2F0E9", "accent": "#C6B2DE" },
+    { "option": 2, "name": "雾紫影像馆", "file": "02-lavender-gallery.png", "base": "#F0EDF5", "surface": "#E7E1EF", "text": "#2B2633", "accent": "#806396" },
+    { "option": 3, "name": "暖白胶片志", "file": "03-warm-paper-journal.png", "base": "#F4F1E9", "surface": "#EAE6DC", "text": "#292923", "accent": "#747D65" }
+  ],
+  "implementationConstraints": [
+    "保留当前已认可的作品排布",
+    "保留4个章节、6个项目模块、20部作品及完整简介",
+    "正式实现使用原始成片、现有封面和原始个人照片",
+    "生成图中的文字与局部图片仅作视觉示意，以站内真实内容和原始素材为准",
+    "统一导航、开场、作品、关于、联系及详情页",
+    "统一选中、悬停、键盘焦点、播放器与减少动态效果状态"
+  ]
+}

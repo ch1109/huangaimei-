@@ -1,0 +1,202 @@
+/* Obsidian Cinema: one continuous surface, original images and content. */
+:root {
+  color-scheme: dark;
+  --surface: #17171b;
+  --surface-raised: #212127;
+  --surface-tinted: #2d2635;
+  --text: #f2f0e9;
+  --text-secondary: #bdb9c6;
+  --text-muted: #a59fad;
+  --line: #39353f;
+  --line-strong: #62596d;
+  --accent: #c6b2de;
+  --accent-hover: #e2d3f0;
+  --accent-ink: #211a29;
+  /* Shared viewing-room styles use these existing semantic names. */
+  --paper: var(--surface);
+  --ink: var(--text);
+  --reading: var(--text-secondary);
+  --secondary: var(--text-muted);
+  --lavender: var(--surface-tinted);
+  --purple: var(--accent);
+  --purple-dark: var(--accent);
+  --night: var(--surface);
+  --night-soft: var(--text-secondary);
+  background: var(--surface);
+  color: var(--text);
+  scrollbar-color: var(--line-strong) var(--surface);
+}
+
+::selection { background: var(--accent); color: var(--accent-ink); }
+.edition,
+.edition-hero,
+.portfolio-library,
+.edition-about,
+.edition-contact { background: var(--surface); color: var(--text); }
+.edition-header-shell { background: #17171bf2; }
+.edition-header { border-color: var(--line); }
+.edition-brand { color: var(--accent); }
+.edition-brand-cn,
+.edition-header nav a { color: var(--text-secondary); }
+.edition-header nav a .mono { color: var(--text-muted); }
+.edition-header nav a.is-current { color: var(--text); }
+.header-contact { border-color: var(--line-strong); }
+.chapter-rule,
+.portfolio-library .chapter-rule,
+.edition-about .chapter-rule,
+.edition-contact .chapter-rule {
+  color: var(--text-muted);
+  border-color: var(--line);
+}
+.chapter-rule > span:last-child { opacity: 1; }
+.edition a:hover,
+.portfolio-library a:hover,
+.collection-film h5 button:hover,
+.collection-read:hover,
+.next-work:hover { color: var(--accent-hover); }
+.experience-list article:last-child { padding-bottom: 0; margin-bottom: 0; border-bottom: 0; }
+.edition :is(button,a):focus-visible,
+:is(button,a,summary):focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.skip-link { background: var(--accent); color: var(--accent-ink); }
+
+/* Retain the original flower frame, blending it into the new charcoal. */
+.hero-film { background: var(--surface-raised); color: var(--text); }
+.hero-image-shade {
+  background: linear-gradient(90deg,#17171b 0%,#17171bc4 4%,#17171b05 49%),
+    linear-gradient(0deg,#17171b8c,transparent 28%);
+}
+.hero-eyebrow,
+.hero-introduction p,
+.hero-bottom { color: var(--text-secondary); }
+.hero-handwriting { color: var(--text); }
+.hero-film-caption > span { color: var(--text-secondary); }
+.hero-explore { color: var(--text); border-color: var(--line-strong); }
+.hero-disciplines i { color: var(--text-muted); }
+.scroll-tick { background: var(--line-strong); }
+.scroll-tick::after { background: var(--accent); }
+.hero-play { background: #17171b12; }
+.hero-film:hover .hero-play { background: #17171b70; }
+
+/* Chapter identity comes from numbering and titles, with one shared accent. */
+.library-kicker,
+.library-total > span,
+.project-count,
+.collection-label,
+.collection-film-meta > .mono { color: var(--text-muted); }
+.library-heading h2 > span,
+.library-total strong { color: var(--accent); }
+.library-heading p,
+.project-heading > div > p,
+.project-introduction > p,
+.collection-responsibility li,
+.collection-note,
+.collection-film .work-role,
+.film-introduction { color: var(--text-secondary); }
+.collection-filter,
+.project-heading,
+.collection-module + .collection-module { border-color: var(--line); }
+.collection-filter button { color: var(--text-secondary); }
+.collection-filter button:hover { background: var(--surface-tinted); color: var(--text); }
+.collection-filter button[aria-pressed=true] { background: var(--accent); color: var(--accent-ink); }
+
+.project-chapter {
+  --chapter-tone: var(--accent);
+  --poster-bg: var(--surface-raised);
+}
+.project-number { opacity: 1; }
+.collection-note { border-color: var(--line-strong); }
+.collection-source,
+.collection-read,
+.practice-label { color: var(--accent); }
+.collection-duration { background: #17171be6; color: var(--text); }
+.collection-play { background: #17171b80; color: var(--text); }
+.collection-play svg { border-color: var(--accent); background: #17171b40; }
+.collection-read > svg,
+.collection-source > svg { transition: translate .25s var(--ease); }
+.collection-read:hover > svg,
+.collection-source:hover > svg { translate: 3px -3px; }
+.collection-film .work-role { font-size: 12px; }
+
+/* The creator story and footer continue on the same surface as the films. */
+.about-image::before,
+.about-image > .mono,
+.small-label,
+.education-line > .mono,
+.education-line small,
+.experience-label > .mono,
+.experience-date,
+.experience-role,
+.experience-number small,
+.toolkit-line > .mono,
+.toolkit-line > span:last-child,
+.contact-email-row > div > .mono,
+.edition-footer { color: var(--text-muted); }
+.about-story h2 > span,
+.experience-number strong { color: var(--accent); }
+.about-lead,
+.about-body,
+.experience-list article p,
+.contact-aside > p { color: var(--text-secondary); }
+.about-body,
+.experience-list article p { font-size: 14px; line-height: 2; }
+.education-line,
+.experience-editorial,
+.experience-list article,
+.toolkit-line,
+.resume-download,
+.contact-email-row,
+.edition-copy,
+.edition-footer { border-color: var(--line); }
+.toolkit-line > p i { color: var(--text-muted); }
+.edition-email { color: var(--text); }
+.edition-copy:hover { color: var(--accent-hover); }
+
+/* Both modal and direct-link details share the cinema palette. */
+.work-dialog,
+.detail-page { background: var(--surface-raised); color: var(--text); border-color: var(--line-strong); }
+.work-dialog { box-shadow: 0 32px 100px #0009; }
+.work-dialog::backdrop { background: #0d0c12de; }
+.detail-page::before { background: var(--surface); }
+.detail-heading .eyebrow { color: var(--text-muted); }
+.detail-toolbar .text-button,
+.detail-bottom .text-button,
+.cover-packaging summary { color: var(--accent); }
+.detail-toolbar .text-button:hover,
+.detail-bottom .text-button:hover,
+.cover-packaging summary:hover { color: var(--accent-hover); }
+.close-button { background: var(--surface-tinted); color: var(--accent); }
+.close-button:hover { background: var(--accent); color: var(--accent-ink); }
+.detail-project-intro,
+.detail-responsibility,
+.production-note,
+.case-breakdown,
+.cover-packaging { border-color: var(--line); }
+.case-capability { color: var(--text-secondary); background: var(--surface-tinted); }
+.moment-frame,
+.player-shell { background: var(--surface); }
+.player-shell.wide { width: 100%; min-height: 0; }
+.next-work { min-width: 0; padding-right: 4px; margin-left: auto; }
+.next-work > span { min-width: 0; overflow-wrap: anywhere; }
+.player-start { background: #17171be6; border-color: var(--accent); color: var(--text); }
+.player-status,
+.moment-frame > .mono { background: #17171be6; color: var(--text); }
+.player-error { background: #17171bf2; color: var(--text); }
+.player-error button { border-color: var(--accent); color: var(--accent); }
+
+@media(max-width:639px) {
+  .hero-image-shade {
+    background: linear-gradient(180deg,#17171b 0%,#17171bb0 15%,#17171b12 51%,#17171b18 68%,#17171b 100%),
+      linear-gradient(90deg,#17171baa,transparent 70%);
+  }
+  .hero-film-index { color: var(--text-secondary); }
+  .hero-play { background: #17171b18; }
+  .hero-bottom { border-color: var(--line); }
+  .about-body,
+  .experience-list article p { font-size: 13px; }
+  .collection-film .work-role { font-size: 11px; }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  .collection-read > svg,
+  .collection-source > svg { transition: none; translate: none; }
+}

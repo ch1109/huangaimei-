@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "date": "2026-10-14",
+  "status": "内容定稿；推荐顺序为作品集展示编排，不是量化评测",
+  "sourceUrl": "https://hq8krg01cra.feishu.cn/wiki/WoAlwpk0Cidf60kq4rrccVY3n9c",
+  "verification": "本轮直接读取飞书文档的分类、职责、时长与个人练习说明；整理标题与站内 works.json 对齐。没有新增播放指标、脚本职责或精确片段时间点。",
+  "defaultTagId": "music-rhythm",
+  "sourceSections": {
+    "official": {"anchor":"ITP8db898oK3faxH7U1c4X9RnOc","summary":"公司官方账号；负责内容口播拍摄、后期剪辑。"},
+    "custom": {"anchor":"FBgrdi7NLo06ivx9mpccnMC7nLc","summary":"泰康、中意人寿保司定制视频模板；负责视频剪辑、标题与贴图设计、字幕排版及整体视觉包装。人物为公司提供的 AI 示例形象。"},
+    "general": {"anchor":"OgUtdeAbBosEWlxLlx0c3ABKnIe","summary":"公司小程序通用视频模板；包括保险产品科普、产品宣传、热点话题；负责剪辑和视觉包装，用于主站日常更新。"},
+    "art": {"anchor":"MKWmd0aWdoM1nHx6aAMcYoQvnCd","summary":"摄影、绘画及创意艺术作品；负责素材查找与筛选、画面剪辑与编排、背景音乐匹配和整体节奏把控等后期制作。"},
+    "story": {"anchor":"LPFrdSA7xodRGAx4JGXcv3CXnsb","summary":"艺术家及文化人物故事；侧重连贯表达与叙事节奏；负责素材查找与筛选、画面剪辑与编排、背景音乐匹配和整体节奏把控等后期制作。"},
+    "practice": {"anchor":"V6WcdtXzYoSkVTxsptrctO4DnMe","summary":"业余个人练习；广告、城市文旅与 AI 视觉方向，练习剪辑、画面节奏和视觉表现；不主张品牌委托或独立生成全部素材。"}
+  },
+  "tags": [
+    {"id":"music-rhythm","label":"音乐节奏","dimension":"剪辑能力","tone":"lavender","emphasis":"large","description":"关注背景音乐与画面剪辑的配合。","matches":[
+      {"workId":"W11","sourceSection":"art","reason":"这支艺术短片适合先看音乐与画面节奏的配合。我负责素材查找与筛选、画面编排、背景音乐匹配及整体节奏把控。"},
+      {"workId":"W12","sourceSection":"art","reason":"同样属于创意艺术内容，可补充查看不同题材下的音乐匹配与整体节奏处理。"},
+      {"workId":"W13","sourceSection":"art","reason":"绘画题材的艺术剪辑，可对照查看音乐选择和画面节奏如何服务另一种内容。"}]},
+    {"id":"narrative-editing","label":"叙事剪辑","dimension":"剪辑能力","tone":"lavender","emphasis":"large","description":"关注故事的连贯表达与叙事节奏。","matches":[
+      {"workId":"W15","sourceSection":"story","reason":"以艺术家故事为内容，适合观察素材怎样被编排成连贯的人物叙事。我负责素材筛选、画面剪辑与编排、音乐匹配及整体节奏。"},
+      {"workId":"W16","sourceSection":"story","reason":"文化人物故事混剪，时长 04:13，可补充观察较长内容的连贯表达和叙事节奏。"},
+      {"workId":"W18","sourceSection":"practice","reason":"个人文旅练习，以十二时辰为线索串联城市内容，可补充查看不同题材的叙事组织尝试。"}]},
+    {"id":"image-arrangement","label":"画面编排","dimension":"剪辑能力","tone":"lavender","emphasis":"medium","description":"关注素材选择、镜头顺序与视觉呈现。","matches":[
+      {"workId":"W14","sourceSection":"art","reason":"摄影与创意艺术题材，适合重点查看素材筛选及画面编排。我负责素材查找、画面剪辑、音乐匹配和整体节奏处理。"},
+      {"workId":"W11","sourceSection":"art","reason":"换到花卉艺术题材，补充查看素材选择与画面编排的处理。"},
+      {"workId":"W19","sourceSection":"practice","reason":"女孩与蝴蝶相遇的个人视觉叙事练习，可补充查看以画面表达关爱生命主题的尝试。"}]},
+    {"id":"subtitle-layout","label":"字幕排版","dimension":"剪辑能力","tone":"lavender","emphasis":"medium","description":"关注字幕如何与标题、人物和贴图一起组织信息。","matches":[
+      {"workId":"W03","sourceSection":"custom","reason":"保司定制模板项目，可重点查看字幕、标题与贴图的排版。我负责剪辑及视觉包装；视频人物为公司统一提供的 AI 示例形象。"},
+      {"workId":"W04","sourceSection":"custom","reason":"同系列定制模板，可补充比较不同主题中的字幕排版与视觉包装。"},
+      {"workId":"W09","sourceSection":"general","reason":"保险产品科普模板，可补充查看数字信息题材中的字幕与标题排版。"}]},
+    {"id":"visual-packaging","label":"视觉包装","dimension":"剪辑能力","tone":"lavender","emphasis":"large","description":"关注标题、贴图与字幕构成的整体视觉呈现。","matches":[
+      {"workId":"W03","sourceSection":"custom","reason":"这支定制模板集中展示标题设计、贴图设计、字幕排版与整体视觉包装，是了解我商业内容包装职责的直接入口。"},
+      {"workId":"W05","sourceSection":"custom","reason":"财富与市场主题的定制模板，可补充查看另一套内容下的剪辑和包装。"},
+      {"workId":"W08","sourceSection":"general","reason":"电影话题与保险主题结合的通用模板，可补充查看日常更新内容的视觉包装。"}]},
+    {"id":"real-presenter","label":"真人口播","dimension":"内容类型","tone":"blue","emphasis":"medium","description":"公司官方账号的真人口播内容。","matches":[
+      {"workId":"W01","sourceSection":"official","reason":"公司官方账号的真人口播作品，适合了解我在真实工作项目中的拍摄与后期剪辑职责。"},
+      {"workId":"W02","sourceSection":"official","reason":"同一账号的另一支商业口播，可补充查看不同话题下的拍摄与剪辑。"}]},
+    {"id":"insurance-explainer","label":"保险科普","dimension":"内容类型","tone":"blue","emphasis":"small","description":"保险产品、数字信息与热点科普内容。","matches":[
+      {"workId":"W09","sourceSection":"general","reason":"围绕分红险数字差异展开的产品科普模板。我负责剪辑、标题与贴图设计、字幕排版及视觉包装，适合了解知识类内容制作经验。"},
+      {"workId":"W10","sourceSection":"general","reason":"通用模板中的热点科普内容，可补充查看另一类知识内容的剪辑与包装。"},
+      {"workId":"W07","sourceSection":"general","reason":"以单亲妈妈与保险为主题的通用模板，可补充查看生活话题与保险内容结合的制作经验。"}]},
+    {"id":"art-short","label":"艺术短片","dimension":"内容类型","tone":"blue","emphasis":"medium","description":"摄影、绘画与创意艺术作品的短片剪辑。","matches":[
+      {"workId":"W11","sourceSection":"art","reason":"以花卉艺术画面为入口，展示我在艺术内容中的素材选择、画面编排、音乐匹配及整体节奏处理。"},
+      {"workId":"W12","sourceSection":"art","reason":"创意艺术题材的另一支短片，可补充查看不同内容的后期呈现。"},
+      {"workId":"W13","sourceSection":"art","reason":"绘画题材的短片，补充展示艺术内容类型与后期制作经验。"},
+      {"workId":"W14","sourceSection":"art","reason":"摄影题材的艺术剪辑，补充展示不同艺术素材的画面呈现。"}]},
+    {"id":"people-story","label":"人物故事","dimension":"内容类型","tone":"blue","emphasis":"medium","description":"艺术家与文化人物故事的较长视频混剪。","matches":[
+      {"workId":"W15","sourceSection":"story","reason":"艺术家夏加尔的人物故事混剪，适合了解我在人物内容中的连贯表达与叙事节奏处理。"},
+      {"workId":"W16","sourceSection":"story","reason":"钱锺书与林徽因相关的人物故事混剪，补充展示文化人物题材的较长视频经验。"}]},
+    {"id":"city-travel","label":"城市文旅","dimension":"内容类型","tone":"blue","emphasis":"medium","description":"以城市风光与人文生活为内容的个人练习。","matches":[
+      {"workId":"W18","sourceSection":"practice","reason":"以十二时辰为叙事线索，串联金堂的自然风光、历史建筑、特色美食与人文生活，展示城市文旅方向的个人创作尝试。"}]},
+    {"id":"ad-visual","label":"广告视觉","dimension":"内容类型","tone":"blue","emphasis":"small","description":"广告题材的视觉剪辑练习。","matches":[
+      {"workId":"W17","sourceSection":"practice","reason":"以汽车外观、内饰与驾驶场景的镜头切换，结合建筑和光影画面，展示广告视觉方向的个人剪辑练习；非品牌委托。"},
+      {"workId":"W20","sourceSection":"practice","reason":"以自然景观与色彩表现探索广告视觉氛围的 AI 视频剪辑练习；非品牌委托。"}]},
+    {"id":"ai-visual","label":"AI 视觉","dimension":"内容类型","tone":"blue","emphasis":"small","description":"AI 视频相关的个人视觉练习。","matches":[
+      {"workId":"W20","sourceSection":"practice","reason":"以雪山、湖泊等自然景观与色彩表现营造纯净氛围，展示 AI 视频方向的个人视觉练习；不主张独立生成全部素材。"}]},
+    {"id":"shoot-and-edit","label":"拍摄与剪辑","dimension":"用人方关注","tone":"peach","emphasis":"medium","description":"看真人口播拍摄与后期剪辑经验。","matches":[
+      {"workId":"W01","sourceSection":"official","reason":"如果岗位需要口播拍摄与后期衔接，可以先看这支公司账号作品：飞书明确列出我负责真人口播拍摄和后期剪辑。"},
+      {"workId":"W02","sourceSection":"official","reason":"同一工作范围的另一支口播作品，可补充了解实际账号内容的拍剪经验。"}]},
+    {"id":"post-production","label":"后期全流程","dimension":"用人方关注","tone":"peach","emphasis":"medium","description":"看从素材查找、剪辑编排到配乐与节奏处理的后期经验。","matches":[
+      {"workId":"W15","sourceSection":"story","reason":"这类人物故事由我负责后期制作全流程，包括素材查找与筛选、画面剪辑与编排、背景音乐匹配和整体节奏把控。"},
+      {"workId":"W11","sourceSection":"art","reason":"艺术短片中同样承担素材、画面、音乐与节奏等后期工作，可对照查看不同题材。"},
+      {"workId":"W16","sourceSection":"story","reason":"较长人物故事的后期制作经验，可补充观察更长内容的组织与节奏。"}]},
+    {"id":"template-production","label":"模板制作","dimension":"用人方关注","tone":"peach","emphasis":"medium","description":"看保司定制模板和公司日常更新模板的制作经验。","matches":[
+      {"workId":"W03","sourceSection":"custom","reason":"泰康、中意人寿保司定制模板项目中的作品，展示我在实际模板项目里的剪辑、标题设计、贴图设计、字幕排版与视觉包装职责。"},
+      {"workId":"W04","sourceSection":"custom","reason":"旅居主题的保司定制模板，可补充查看系列项目的制作经验。"},
+      {"workId":"W05","sourceSection":"custom","reason":"市场与财富主题的保司定制模板，补充展示不同产品内容的制作经验。"},
+      {"workId":"W06","sourceSection":"custom","reason":"保司宣传主题的定制模板，补充展示同类项目中的题材范围。"},
+      {"workId":"W07","sourceSection":"general","reason":"公司小程序的通用视频模板，用于日常内容更新。"},
+      {"workId":"W08","sourceSection":"general","reason":"电影话题与产品内容结合的通用模板，补充展示日常更新题材。"},
+      {"workId":"W09","sourceSection":"general","reason":"保险产品科普的通用模板，补充展示知识题材的模板制作。"},
+      {"workId":"W10","sourceSection":"general","reason":"热点科普的通用模板，补充展示公司更新内容的类型。"}]}
+  ]
+}

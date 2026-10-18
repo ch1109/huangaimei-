@@ -1,0 +1,39 @@
+{
+  "covers": 20,
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "loaded": 20,
+      "completeDisplay": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "loaded": 20,
+      "completeDisplay": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "loaded": 20,
+      "completeDisplay": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "loaded": 20,
+      "completeDisplay": true
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "loaded": 20,
+      "completeDisplay": true
+    }
+  ],
+  "errors": [],
+  "fallback": true,
+  "originalPlayer": true,
+  "coverBytes": 3015136
+}

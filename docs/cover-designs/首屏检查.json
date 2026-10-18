@@ -1,0 +1,8 @@
+{
+  "lcp": 932,
+  "transferBytes": 1340942,
+  "videoRequests": 0,
+  "coldCache": true,
+  "downloadMbps": 10,
+  "latencyMs": 100
+}

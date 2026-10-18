@@ -1,0 +1,37 @@
+[
+  {
+    "gridColumns": "419px 419px 419px",
+    "heroWatchBottom": 784.59375,
+    "overflow": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "gridColumns": "300.328px 300.328px 300.344px",
+    "heroWatchBottom": 729.59375,
+    "overflow": [],
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "gridColumns": "333.5px 333.5px",
+    "heroWatchBottom": 620,
+    "overflow": [],
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "gridColumns": "335px",
+    "heroWatchBottom": 712.71875,
+    "overflow": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "gridColumns": "305px",
+    "heroWatchBottom": 701.5625,
+    "overflow": [],
+    "scrollWidth": 345,
+    "width": 360
+  }
+]

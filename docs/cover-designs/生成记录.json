@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-13",
+  "scope": "20 张封面全部使用内置生图完成并接入；原始成片保留。",
+  "covers": [
+    {
+      "id": "W01",
+      "mode": "built-in image_gen（前一轮生成，本轮复用）",
+      "original": "assets/cover-designs/W01.png",
+      "web": "public/covers/W01.webp",
+      "prompt": "Use case: identity-preserve. Asset type: ONE finished landscape 3:2 Xiaohongshu video thumbnail for a professional video editor portfolio. Input image is an actual video frame. Preserve this exact woman's facial identity, glasses, hairstyle and black blazer, photographic cutout. Recompose creatively; remove all old captions and scenery. Modern designer social cover: electric cobalt blue background, a few warm cream ripped-paper pieces, a thick white cutout outline around waist-up presenter on right 42%, slight offset black print shadow. Huge bold clean simplified Chinese headline on left 55%, three carefully typeset lines: “客户买保险” / “为什么” / “非要找你？” . Last line use acid yellow highlight strip. Small top label “商业口播”. A single hand-drawn curved arrow points from headline toward presenter. High-end lively editorial, authentic social feed taste, legible even at 350px, not generic banner. Fill entire 3:2 landscape canvas, no outer border, no watermark, no platform logo, no fake numbers, no extra text; keep face and ALL text inside 8% safe area. Do not generate additional people."
+    },
+    {
+      "id": "W02",
+      "mode": "built-in image_gen（前一轮生成，本轮复用）",
+      "original": "assets/cover-designs/W02.png",
+      "web": "public/covers/W02.webp",
+      "prompt": "Use case: identity-preserve. Asset type: one finished LANDSCAPE 3:2 Xiaohongshu video cover for a designer portfolio, full bleed. Input image is the exact actual video frame to edit, preserving relevant subject identity and recognizable source content. Replace existing subtitles and old titles completely. Strong visual hierarchy, oversized Chinese title legible at 350px wide, expressive but tasteful contemporary social editorial, a carefully designed unique composition, professional art direction. All title text and faces within inner 8% safe margins; no captions near outer edge. Only the supplied exact Simplified Chinese text; no random extra words, no platform logo, no fake engagement counts, no outer mockup frame, no watermark. Decorations are cover graphics, never fabricate video frames or results. Output one image, not a contact sheet.\nArt direction: 柿子橙、近黑、奶油白；人物在左侧约38%，右侧是粗黑中文排版，白色票据纸和小型联系人头像线条图标，荧光绿箭头连接三个抽象圆点，生动但克制。\nText (verbatim): headline lines \"线上拓客\" / \"别只靠\" / \"人情单\", small supporting label \"商业口播\"."
+    },
+    {
+      "id": "W03",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W03.webp",
+      "original": "assets/cover-designs/W03.png",
+      "web": "public/covers/W03.webp",
+      "prompt": "Use case: identity-preserve. Asset type: one finished landscape 3:2 Xiaohongshu video cover for a video editor portfolio. Edit the provided actual video frame. Preserve the woman's exact facial identity, hair, pearl necklace and black outfit; remove original titles and subtitles. Deep navy, lemon yellow and warm cream palette; presenter as a small circular photographic cutout in lower right, large typographic headline in left two thirds, oversized subtle 2026 numeral collage behind. Contemporary financial editorial composition with very light film grain and fine timeline ticks. Main Simplified Chinese text exactly “低利率时代” on line one, “如何规划未来？” below; small label exactly “泰盈人生 2026”. Legible at 350px, all text inside 8% safe margins. No financial promises, no extra people, no platform logos, no outer mockup frame, no watermark. One cover only."
+    },
+    {
+      "id": "W04",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W04.webp",
+      "original": "assets/cover-designs/W04.png",
+      "web": "public/covers/W04.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 奶油白、森林绿、橘黄；参考人物右下角小幅摄影剪贴，四枚季节照片纸片环绕版心，手绘行李路线；度假生活杂志风，不虚构泰康设施。 Text (verbatim), main headline separate lines: \"四季旅居\" / \"是什么体验？\". Small label: \"泰康之家\"."
+    },
+    {
+      "id": "W05",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W05.webp",
+      "original": "assets/cover-designs/W05.png",
+      "web": "public/covers/W05.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 荧光浅绿、深石墨、银灰；参考人物左侧黑白剪贴，右侧大字，撕边纸和抽象波浪线；财经社论风，不添加虚构价格数据。 Text (verbatim), main headline separate lines: \"市场起伏\" / \"财富如何\" / \"穿越周期？\". Small label: \"中意人寿\"."
+    },
+    {
+      "id": "W06",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W06.webp",
+      "original": "assets/cover-designs/W06.png",
+      "web": "public/covers/W06.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 砖红、暖白、深蓝；巨大75占左半边，右侧参考人物小幅剪贴，底部抽象工程剪影插画，现代工业编辑设计。 Text (verbatim), main headline separate lines: \"75载\" / \"与国同行\". Small label: \"守护国之重器\"."
+    },
+    {
+      "id": "W07",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W07.webp",
+      "original": "assets/cover-designs/W07.png",
+      "web": "public/covers/W07.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 温暖桃粉、黑、淡黄；参考女性半身在左，右侧笔记纸承载主标题，手绘爱心与铅笔下划线；有力温柔，不生成小孩。 Text (verbatim), main headline separate lines: \"单亲妈妈\" / \"给孩子的\" / \"底气\". Small label: \"保险与家庭\"."
+    },
+    {
+      "id": "W08",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W08.webp",
+      "original": "assets/cover-designs/W08.png",
+      "web": "public/covers/W08.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 旧照片暖棕、奶油白、朱红；参考女性右下胶片照片，左侧大字，一封空白信封与单朵压花；情感书信杂志风。 Text (verbatim), main headline separate lines: \"给阿嬷的情书\" / \"读懂年金险\". Small label: \"一封信，一份牵挂\"."
+    },
+    {
+      "id": "W09",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W09.webp",
+      "original": "assets/cover-designs/W09.png",
+      "web": "public/covers/W09.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 薰衣草紫、奶白、深紫；两张大数字卡片对比，参考白西装女性右下半身剪贴，知识笔记风；无额外收益图。 Text (verbatim), main headline separate lines: \"1.5%\" / \"vs\" / \"1.75%\" / \"分红险怎么选？\". Small label: \"红利演示，越高越好？\"."
+    },
+    {
+      "id": "W10",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W10.webp",
+      "original": "assets/cover-designs/W10.png",
+      "web": "public/covers/W10.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 珊瑚红、奶油白、石墨；参考男性眼镜和西装保留，右侧剪贴，左侧大字，手绘醒目括号和心跳波形；不增加诊断或情绪导致癌症的结论。 Text (verbatim), main headline separate lines: \"年轻人的\" / \"健康警报\". Small label: \"热点科普\"."
+    },
+    {
+      "id": "W11",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W11.webp",
+      "original": "assets/cover-designs/W11.png",
+      "web": "public/covers/W11.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留参考花卉、淡紫粉色花瓣，奶油黄背景，大花交叠版心，深紫剪纸星芒与透明胶带；大胆细腻艺术杂志，不压花心。 Text (verbatim), main headline separate lines: \"花舞瞬间\" / \"把花开剪成诗\". Small label: \"艺术短片\"."
+    },
+    {
+      "id": "W12",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W12.webp",
+      "original": "assets/cover-designs/W12.png",
+      "web": "public/covers/W12.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留切开的包形蛋糕和夹层，主体右侧，底部局部粉白棋盘格，左上大字和黄色问号；趣味甜品杂志。 Text (verbatim), main headline separate lines: \"等等…\" / \"这居然\" / \"是蛋糕？！\". Small label: \"神奇的蛋糕\"."
+    },
+    {
+      "id": "W13",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W13.webp",
+      "original": "assets/cover-designs/W13.png",
+      "web": "public/covers/W13.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留参考黄色天空、蓝绿峡谷、树木与倒影，全幅画面；下部深蓝纸带与奶白大字，酸黄圆点及艺术展签。 Text (verbatim), main headline separate lines: \"梦幻绘画\" / \"走进画里的世界\". Small label: \"艺术短片\"."
+    },
+    {
+      "id": "W14",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W14.webp",
+      "original": "assets/cover-designs/W14.png",
+      "web": "public/covers/W14.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留红蓝磁铁与相拥人像创意，暖灰背景，珊瑚红天蓝拼贴纸，标题分行在左，右上白色相框角；创意摄影笔记。 Text (verbatim), main headline separate lines: \"摄影\" / \"还可以\" / \"这样玩？！\". Small label: \"趣味摄影\"."
+    },
+    {
+      "id": "W15",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W15.webp",
+      "original": "assets/cover-designs/W15.png",
+      "web": "public/covers/W15.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留原画蓝夜、红花、月亮和情侣，横向编排，蓝底米黄大字和细红线；现代艺术图录，不生成新人物或新画冒充作品。 Text (verbatim), main headline separate lines: \"夏加尔\" / \"把梦画成浪漫\". Small label: \"人物故事\"."
+    },
+    {
+      "id": "W16",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W16.webp",
+      "original": "assets/cover-designs/W16.png",
+      "web": "public/covers/W16.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留参考黑白女性肖像，墨黑、暖白、柠檬黄；照片右半，左侧大字、旧书页局部和荧光笔圈线；不生成男肖像或写恋爱故事。 Text (verbatim), main headline separate lines: \"钱锺书\" / \"与林徽因\". Small label: \"人物故事\"."
+    },
+    {
+      "id": "W17",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W17.webp",
+      "original": "assets/cover-designs/W17.png",
+      "web": "public/covers/W17.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留奔驰车头车型、格栅与徽标，右半完整摄影，石墨银灰与电光橙，左侧大字与胶片角标；不虚构性能。 Text (verbatim), main headline separate lines: \"速度之外\" / \"镜头里的张力\". Small label: \"汽车视觉 · 个人练习\"."
+    },
+    {
+      "id": "W18",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W18.webp",
+      "original": "assets/cover-designs/W18.png",
+      "web": "public/covers/W18.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留参考落日、山脉、古装背影，全幅琥珀与炭黑，现代黑体大字左对齐，底部12格装饰时间标记；不添加新地标或水墨。 Text (verbatim), main headline separate lines: \"金堂十二时辰\" / \"一座城的一天\". Small label: \"文旅 · 个人练习\"."
+    },
+    {
+      "id": "W19",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W19.webp",
+      "original": "assets/cover-designs/W19.png",
+      "web": "public/covers/W19.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留动漫女孩推窗、白裙、金发、春日绿意，右侧主体，左侧奶黄留白与蝴蝶剪贴，翠绿粗体；清新醒目。 Text (verbatim), main headline separate lines: \"春日与蝴蝶\" / \"推开窗，就是春天\". Small label: \"视觉叙事 · 个人练习\"."
+    },
+    {
+      "id": "W20",
+      "mode": "built-in image_gen",
+      "reference": "public/media/W20.webp",
+      "original": "assets/cover-designs/W20.png",
+      "web": "public/covers/W20.webp",
+      "prompt": "Use case: compositing. Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage. Art direction: 保留紫色产品瓶、雪山暮色湖面和产品外形，暗紫粉霞，右侧产品左侧奶白大字；精致美妆实验，不添加功效或品牌背书。 Text (verbatim), main headline separate lines: \"雪山与微光\" / \"AI 视觉实验\". Small label: \"广告剪辑 · 个人练习\"."
+    }
+  ]
+}

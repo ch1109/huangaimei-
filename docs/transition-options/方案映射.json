@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "scope": "首屏至作品区的局部衔接方案；仅提出视觉选项，未修改网页实现",
+  "reference": "C:/Users/10679/AppData/Local/Temp/codex-clipboard-d847d603-3a52-4c8f-a6ca-70bd938a3112.png",
+  "authoritativeOrder": "三张生成图在主聊天中的实际展示顺序",
+  "options": [
+    {"number":1,"name":"影像叠接","file":"01-image-overlap.png","result":"exec-899cd16e-c96c-4feb-aad4-2ac3845cb5f0","direction":"标题融入首屏影像下缘，压缩引导行与统计，建立图像与作品标题的连续关系"},
+    {"number":2,"name":"剪辑时间线","file":"02-editing-timeline.png","result":"exec-84a76ff6-1e66-4208-8a0c-6a26759800b1","direction":"短竖线承接首屏，四个章节节点代替重复的筛选条，强调项目顺序"},
+    {"number":3,"name":"目录扉页","file":"03-chapter-index.png","result":"exec-3a9b4c20-b7b5-434f-b312-a5ed0d6187a9","direction":"左侧两行标题与简介，右侧2×2分类目录，将标题、统计和筛选合为一个编辑式构图"}
+  ],
+  "constraints": [
+    "延续#17171B炭黑、#F2F0E9暖白、#C6B2DE雾紫的现有方案",
+    "所有可编辑文字沿用同一现代无衬线风格",
+    "仅优化首屏与作品区衔接和作品区引导，不重新编排后续已认可的作品模块",
+    "保留4章节、6模块、20作品及完整简介和说明",
+    "正式实现继续使用原始图片、视频和真实文案，生成图只作局部构图示意",
+    "第一张示意图下方作品网格有生成偏差；若选中，仅采用其上方叠接结构，后续作品维持现有左简介右双列"
+  ]
+}

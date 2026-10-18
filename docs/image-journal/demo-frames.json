@@ -1,0 +1,987 @@
+[
+  {
+    "file": "frame-00000.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248556304
+  },
+  {
+    "file": "frame-00001.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248556577
+  },
+  {
+    "file": "frame-00002.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248556701
+  },
+  {
+    "file": "frame-00003.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248556809
+  },
+  {
+    "file": "frame-00004.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248556933
+  },
+  {
+    "file": "frame-00005.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557042
+  },
+  {
+    "file": "frame-00006.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557152
+  },
+  {
+    "file": "frame-00007.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557273
+  },
+  {
+    "file": "frame-00008.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557383
+  },
+  {
+    "file": "frame-00009.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557492
+  },
+  {
+    "file": "frame-00010.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557615
+  },
+  {
+    "file": "frame-00011.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557739
+  },
+  {
+    "file": "frame-00012.png",
+    "label": "01-02 / title and image reveal",
+    "timestamp": 1792248557848
+  },
+  {
+    "file": "frame-00013.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558171
+  },
+  {
+    "file": "frame-00014.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558301
+  },
+  {
+    "file": "frame-00015.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558410
+  },
+  {
+    "file": "frame-00016.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558518
+  },
+  {
+    "file": "frame-00017.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558686
+  },
+  {
+    "file": "frame-00018.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558823
+  },
+  {
+    "file": "frame-00019.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248558945
+  },
+  {
+    "file": "frame-00020.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248559053
+  },
+  {
+    "file": "frame-00021.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248559178
+  },
+  {
+    "file": "frame-00022.png",
+    "label": "03-04-12 / main film and detail entry",
+    "timestamp": 1792248559301
+  },
+  {
+    "file": "frame-00023.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584056
+  },
+  {
+    "file": "frame-00024.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584209
+  },
+  {
+    "file": "frame-00025.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584333
+  },
+  {
+    "file": "frame-00026.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584443
+  },
+  {
+    "file": "frame-00027.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584550
+  },
+  {
+    "file": "frame-00028.png",
+    "label": "12 / detail exit",
+    "timestamp": 1792248584674
+  },
+  {
+    "file": "frame-00029.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248584916
+  },
+  {
+    "file": "frame-00030.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585048
+  },
+  {
+    "file": "frame-00031.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585160
+  },
+  {
+    "file": "frame-00032.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585311
+  },
+  {
+    "file": "frame-00033.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585436
+  },
+  {
+    "file": "frame-00034.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585560
+  },
+  {
+    "file": "frame-00035.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585683
+  },
+  {
+    "file": "frame-00036.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585791
+  },
+  {
+    "file": "frame-00037.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248585900
+  },
+  {
+    "file": "frame-00038.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248586024
+  },
+  {
+    "file": "frame-00039.png",
+    "label": "05-06 / chapters and experience",
+    "timestamp": 1792248586147
+  },
+  {
+    "file": "frame-00040.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586386
+  },
+  {
+    "file": "frame-00041.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586515
+  },
+  {
+    "file": "frame-00042.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586625
+  },
+  {
+    "file": "frame-00043.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586733
+  },
+  {
+    "file": "frame-00044.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586841
+  },
+  {
+    "file": "frame-00045.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248586949
+  },
+  {
+    "file": "frame-00046.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248587073
+  },
+  {
+    "file": "frame-00047.png",
+    "label": "07 / case slice",
+    "timestamp": 1792248587182
+  },
+  {
+    "file": "frame-00048.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248587415
+  },
+  {
+    "file": "frame-00049.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248587541
+  },
+  {
+    "file": "frame-00050.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248587653
+  },
+  {
+    "file": "frame-00051.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248587789
+  },
+  {
+    "file": "frame-00052.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248587913
+  },
+  {
+    "file": "frame-00053.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588023
+  },
+  {
+    "file": "frame-00054.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588132
+  },
+  {
+    "file": "frame-00055.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588241
+  },
+  {
+    "file": "frame-00056.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588366
+  },
+  {
+    "file": "frame-00057.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588489
+  },
+  {
+    "file": "frame-00058.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588597
+  },
+  {
+    "file": "frame-00059.png",
+    "label": "08 / folder entrance",
+    "timestamp": 1792248588706
+  },
+  {
+    "file": "frame-00060.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248588958
+  },
+  {
+    "file": "frame-00061.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589078
+  },
+  {
+    "file": "frame-00062.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589187
+  },
+  {
+    "file": "frame-00063.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589296
+  },
+  {
+    "file": "frame-00064.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589405
+  },
+  {
+    "file": "frame-00065.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589512
+  },
+  {
+    "file": "frame-00066.png",
+    "label": "08 / folder folds",
+    "timestamp": 1792248589618
+  },
+  {
+    "file": "frame-00067.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248589858
+  },
+  {
+    "file": "frame-00068.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248589988
+  },
+  {
+    "file": "frame-00069.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590095
+  },
+  {
+    "file": "frame-00070.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590218
+  },
+  {
+    "file": "frame-00071.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590325
+  },
+  {
+    "file": "frame-00072.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590449
+  },
+  {
+    "file": "frame-00073.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590559
+  },
+  {
+    "file": "frame-00074.png",
+    "label": "08 / folder unfolds",
+    "timestamp": 1792248590666
+  },
+  {
+    "file": "frame-00075.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248605958
+  },
+  {
+    "file": "frame-00076.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606103
+  },
+  {
+    "file": "frame-00077.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606212
+  },
+  {
+    "file": "frame-00078.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606350
+  },
+  {
+    "file": "frame-00079.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606458
+  },
+  {
+    "file": "frame-00080.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606566
+  },
+  {
+    "file": "frame-00081.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606674
+  },
+  {
+    "file": "frame-00082.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606783
+  },
+  {
+    "file": "frame-00083.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248606891
+  },
+  {
+    "file": "frame-00084.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248607000
+  },
+  {
+    "file": "frame-00085.png",
+    "label": "09-10 / selection and reflow",
+    "timestamp": 1792248607110
+  },
+  {
+    "file": "frame-00086.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607309
+  },
+  {
+    "file": "frame-00087.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607418
+  },
+  {
+    "file": "frame-00088.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607526
+  },
+  {
+    "file": "frame-00089.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607636
+  },
+  {
+    "file": "frame-00090.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607744
+  },
+  {
+    "file": "frame-00091.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607853
+  },
+  {
+    "file": "frame-00092.png",
+    "label": "10 / all films",
+    "timestamp": 1792248607961
+  },
+  {
+    "file": "frame-00093.png",
+    "label": "10 / all films",
+    "timestamp": 1792248608071
+  },
+  {
+    "file": "frame-00094.png",
+    "label": "10 / all films",
+    "timestamp": 1792248608181
+  },
+  {
+    "file": "frame-00095.png",
+    "label": "10 / all films",
+    "timestamp": 1792248608290
+  },
+  {
+    "file": "frame-00096.png",
+    "label": "10 / all films",
+    "timestamp": 1792248608398
+  },
+  {
+    "file": "frame-00097.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248608638
+  },
+  {
+    "file": "frame-00098.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248608756
+  },
+  {
+    "file": "frame-00099.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248608866
+  },
+  {
+    "file": "frame-00100.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609022
+  },
+  {
+    "file": "frame-00101.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609129
+  },
+  {
+    "file": "frame-00102.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609254
+  },
+  {
+    "file": "frame-00103.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609361
+  },
+  {
+    "file": "frame-00104.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609470
+  },
+  {
+    "file": "frame-00105.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609578
+  },
+  {
+    "file": "frame-00106.png",
+    "label": "11-12 / work viewing",
+    "timestamp": 1792248609701
+  },
+  {
+    "file": "frame-00107.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248609983
+  },
+  {
+    "file": "frame-00108.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610102
+  },
+  {
+    "file": "frame-00109.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610211
+  },
+  {
+    "file": "frame-00110.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610320
+  },
+  {
+    "file": "frame-00111.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610428
+  },
+  {
+    "file": "frame-00112.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610537
+  },
+  {
+    "file": "frame-00113.png",
+    "label": "12 / return to collection",
+    "timestamp": 1792248610646
+  },
+  {
+    "file": "frame-00114.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248610888
+  },
+  {
+    "file": "frame-00115.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611003
+  },
+  {
+    "file": "frame-00116.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611112
+  },
+  {
+    "file": "frame-00117.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611253
+  },
+  {
+    "file": "frame-00118.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611375
+  },
+  {
+    "file": "frame-00119.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611498
+  },
+  {
+    "file": "frame-00120.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611622
+  },
+  {
+    "file": "frame-00121.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611731
+  },
+  {
+    "file": "frame-00122.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611840
+  },
+  {
+    "file": "frame-00123.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248611947
+  },
+  {
+    "file": "frame-00124.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248612056
+  },
+  {
+    "file": "frame-00125.png",
+    "label": "13 / workflow chapter",
+    "timestamp": 1792248612165
+  },
+  {
+    "file": "frame-00126.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612421
+  },
+  {
+    "file": "frame-00127.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612550
+  },
+  {
+    "file": "frame-00128.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612658
+  },
+  {
+    "file": "frame-00129.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612767
+  },
+  {
+    "file": "frame-00130.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612875
+  },
+  {
+    "file": "frame-00131.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248612983
+  },
+  {
+    "file": "frame-00132.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613091
+  },
+  {
+    "file": "frame-00133.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613215
+  },
+  {
+    "file": "frame-00134.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613325
+  },
+  {
+    "file": "frame-00135.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613434
+  },
+  {
+    "file": "frame-00136.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613544
+  },
+  {
+    "file": "frame-00137.png",
+    "label": "13 / workflow progression",
+    "timestamp": 1792248613652
+  },
+  {
+    "file": "frame-00138.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614055
+  },
+  {
+    "file": "frame-00139.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614195
+  },
+  {
+    "file": "frame-00140.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614304
+  },
+  {
+    "file": "frame-00141.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614459
+  },
+  {
+    "file": "frame-00142.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614583
+  },
+  {
+    "file": "frame-00143.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614692
+  },
+  {
+    "file": "frame-00144.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614817
+  },
+  {
+    "file": "frame-00145.png",
+    "label": "14 / contact",
+    "timestamp": 1792248614926
+  },
+  {
+    "file": "frame-00146.png",
+    "label": "14 / contact",
+    "timestamp": 1792248615052
+  },
+  {
+    "file": "frame-00147.png",
+    "label": "14 / contact",
+    "timestamp": 1792248615160
+  },
+  {
+    "file": "frame-00148.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615414
+  },
+  {
+    "file": "frame-00149.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615545
+  },
+  {
+    "file": "frame-00150.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615655
+  },
+  {
+    "file": "frame-00151.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615764
+  },
+  {
+    "file": "frame-00152.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615871
+  },
+  {
+    "file": "frame-00153.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248615978
+  },
+  {
+    "file": "frame-00154.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248616086
+  },
+  {
+    "file": "frame-00155.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248616194
+  },
+  {
+    "file": "frame-00156.png",
+    "label": "14 / copy confirmation",
+    "timestamp": 1792248616302
+  },
+  {
+    "file": "frame-00157.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249133533
+  },
+  {
+    "file": "frame-00158.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249133688
+  },
+  {
+    "file": "frame-00159.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249133813
+  },
+  {
+    "file": "frame-00160.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249133936
+  },
+  {
+    "file": "frame-00161.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249134062
+  },
+  {
+    "file": "frame-00162.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249134169
+  },
+  {
+    "file": "frame-00163.png",
+    "label": "03 / pointer tilt, upper left",
+    "timestamp": 1792249134293
+  },
+  {
+    "file": "frame-00164.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249134695
+  },
+  {
+    "file": "frame-00165.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249134823
+  },
+  {
+    "file": "frame-00166.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249134932
+  },
+  {
+    "file": "frame-00167.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249135041
+  },
+  {
+    "file": "frame-00168.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249135166
+  },
+  {
+    "file": "frame-00169.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249135290
+  },
+  {
+    "file": "frame-00170.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249135400
+  },
+  {
+    "file": "frame-00171.png",
+    "label": "03 / pointer tilt, lower right",
+    "timestamp": 1792249135508
+  },
+  {
+    "file": "frame-00172.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249135929
+  },
+  {
+    "file": "frame-00173.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136053
+  },
+  {
+    "file": "frame-00174.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136162
+  },
+  {
+    "file": "frame-00175.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136285
+  },
+  {
+    "file": "frame-00176.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136409
+  },
+  {
+    "file": "frame-00177.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136516
+  },
+  {
+    "file": "frame-00178.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136640
+  },
+  {
+    "file": "frame-00179.png",
+    "label": "03 / pointer leaves and springs back",
+    "timestamp": 1792249136762
+  },
+  {
+    "file": "frame-00180.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137178
+  },
+  {
+    "file": "frame-00181.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137306
+  },
+  {
+    "file": "frame-00182.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137430
+  },
+  {
+    "file": "frame-00183.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137537
+  },
+  {
+    "file": "frame-00184.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137660
+  },
+  {
+    "file": "frame-00185.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137783
+  },
+  {
+    "file": "frame-00186.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249137891
+  },
+  {
+    "file": "frame-00187.png",
+    "label": "04 / action hover",
+    "timestamp": 1792249138016
+  },
+  {
+    "file": "frame-00188.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139041
+  },
+  {
+    "file": "frame-00189.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139166
+  },
+  {
+    "file": "frame-00190.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139291
+  },
+  {
+    "file": "frame-00191.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139400
+  },
+  {
+    "file": "frame-00192.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139508
+  },
+  {
+    "file": "frame-00193.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139631
+  },
+  {
+    "file": "frame-00194.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139755
+  },
+  {
+    "file": "frame-00195.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139863
+  },
+  {
+    "file": "frame-00196.png",
+    "label": "11 / poster hover and play hint",
+    "timestamp": 1792249139986
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "W01": {
+    "poster": "/media/W01.webp",
+    "video": "/media/W01.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 97.566,
+    "bytes": 9035672,
+    "preview": "/media/W01-preview.mp4"
+  },
+  "W02": {
+    "poster": "/media/W02.webp",
+    "video": "/media/W02.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 96.637,
+    "bytes": 8457685
+  },
+  "W03": {
+    "poster": "/media/W03.webp",
+    "video": "/media/W03.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 148.179,
+    "bytes": 17796598
+  },
+  "W04": {
+    "poster": "/media/W04.webp",
+    "video": "/media/W04.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 142.896,
+    "bytes": 18250848
+  },
+  "W05": {
+    "poster": "/media/W05.webp",
+    "video": "/media/W05.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 117.609,
+    "bytes": 12259545
+  },
+  "W06": {
+    "poster": "/media/W06.webp",
+    "video": "/media/W06.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 119.849,
+    "bytes": 12452180
+  },
+  "W07": {
+    "poster": "/media/W07.webp",
+    "video": "/media/W07.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 119.059,
+    "bytes": 15613429
+  },
+  "W08": {
+    "poster": "/media/W08.webp",
+    "video": "/media/W08.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 93.14,
+    "bytes": 8941331
+  },
+  "W09": {
+    "poster": "/media/W09.webp",
+    "video": "/media/W09.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 88.98,
+    "bytes": 9004152
+  },
+  "W10": {
+    "poster": "/media/W10.webp",
+    "video": "/media/W10.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 108.992,
+    "bytes": 12405307
+  },
+  "W11": {
+    "poster": "/media/W11.webp",
+    "video": "/media/W11.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 55.458,
+    "bytes": 4464498,
+    "preview": "/media/W11-preview.mp4"
+  },
+  "W12": {
+    "poster": "/media/W12.webp",
+    "video": "/media/W12.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 64.528,
+    "bytes": 10221123
+  },
+  "W13": {
+    "poster": "/media/W13.webp",
+    "video": "/media/W13.mp4",
+    "width": 480,
+    "height": 854,
+    "seconds": 58.538,
+    "bytes": 5544719
+  },
+  "W14": {
+    "poster": "/media/W14.webp",
+    "video": "/media/W14.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 69.683,
+    "bytes": 6873697
+  },
+  "W15": {
+    "poster": "/media/W15.webp",
+    "video": "/media/W15.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 170.504,
+    "bytes": 30589457,
+    "preview": "/media/W15-preview.mp4"
+  },
+  "W16": {
+    "poster": "/media/W16.webp",
+    "video": "/media/W16.mp4",
+    "width": 720,
+    "height": 1280,
+    "seconds": 252.773,
+    "bytes": 39645443
+  },
+  "W17": {
+    "poster": "/media/W17.webp",
+    "video": "/media/W17.mp4",
+    "width": 1440,
+    "height": 720,
+    "seconds": 57.088,
+    "bytes": 7524714
+  },
+  "W18": {
+    "poster": "/media/W18.webp",
+    "video": "/media/W18.mp4",
+    "width": 1920,
+    "height": 1080,
+    "seconds": 211.255,
+    "bytes": 39875174,
+    "preview": "/media/W18-preview.mp4"
+  },
+  "W19": {
+    "poster": "/media/W19.webp",
+    "video": "/media/W19.mp4",
+    "width": 1920,
+    "height": 1080,
+    "seconds": 45.163,
+    "bytes": 6753950
+  },
+  "W20": {
+    "poster": "/media/W20.webp",
+    "video": "/media/W20.mp4",
+    "width": 1080,
+    "height": 1920,
+    "seconds": 13.607,
+    "bytes": 2599383
+  }
+}

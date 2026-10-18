@@ -1,0 +1,102 @@
+[
+  {
+    "id": "W01",
+    "meanVolume": "-14.1 dB",
+    "decoded": true
+  },
+  {
+    "id": "W02",
+    "meanVolume": "-14.0 dB",
+    "decoded": true
+  },
+  {
+    "id": "W03",
+    "meanVolume": "-21.3 dB",
+    "decoded": true
+  },
+  {
+    "id": "W04",
+    "meanVolume": "-25.7 dB",
+    "decoded": true
+  },
+  {
+    "id": "W05",
+    "meanVolume": "-21.0 dB",
+    "decoded": true
+  },
+  {
+    "id": "W06",
+    "meanVolume": "-20.7 dB",
+    "decoded": true
+  },
+  {
+    "id": "W07",
+    "meanVolume": "-15.7 dB",
+    "decoded": true
+  },
+  {
+    "id": "W08",
+    "meanVolume": "-25.5 dB",
+    "decoded": true
+  },
+  {
+    "id": "W09",
+    "meanVolume": "-25.3 dB",
+    "decoded": true
+  },
+  {
+    "id": "W10",
+    "meanVolume": "-26.7 dB",
+    "decoded": true
+  },
+  {
+    "id": "W11",
+    "meanVolume": "-15.4 dB",
+    "decoded": true
+  },
+  {
+    "id": "W12",
+    "meanVolume": "-15.9 dB",
+    "decoded": true
+  },
+  {
+    "id": "W13",
+    "meanVolume": "-15.2 dB",
+    "decoded": true
+  },
+  {
+    "id": "W14",
+    "meanVolume": "-15.1 dB",
+    "decoded": true
+  },
+  {
+    "id": "W15",
+    "meanVolume": "-16.0 dB",
+    "decoded": true
+  },
+  {
+    "id": "W16",
+    "meanVolume": "-15.1 dB",
+    "decoded": true
+  },
+  {
+    "id": "W17",
+    "meanVolume": "-12.8 dB",
+    "decoded": true
+  },
+  {
+    "id": "W18",
+    "meanVolume": "-12.1 dB",
+    "decoded": true
+  },
+  {
+    "id": "W19",
+    "meanVolume": "-25.0 dB",
+    "decoded": true
+  },
+  {
+    "id": "W20",
+    "meanVolume": "-22.1 dB",
+    "decoded": true
+  }
+]

@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-13",
+  "tool": "built-in image_gen",
+  "sharedPrompt": "Create ONE finished LANDSCAPE 3:2 Xiaohongshu video cover for a video editor portfolio. The reference is the actual video frame to edit. Preserve exact subject identity and recognizable source content. Remove original captions and old titles. Strong visual hierarchy, oversized legible Simplified Chinese at 350px, tasteful expressive social editorial art direction. All text and faces inside 8% safe margins. Only the supplied exact text. No platform logos, invented engagement counts, fake results, outer mockup frame or watermark. Decorative graphics are cover design, not new video footage.",
+  "designs": [
+    {
+      "id": "W04",
+      "reference": "public/media/W04.webp",
+      "headline": [
+        "四季旅居",
+        "是什么体验？"
+      ],
+      "label": "泰康之家",
+      "direction": "奶油白、森林绿、橘黄；参考人物右下角小幅摄影剪贴，四枚季节照片纸片环绕版心，手绘行李路线；度假生活杂志风，不虚构泰康设施。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W05",
+      "reference": "public/media/W05.webp",
+      "headline": [
+        "市场起伏",
+        "财富如何",
+        "穿越周期？"
+      ],
+      "label": "中意人寿",
+      "direction": "荧光浅绿、深石墨、银灰；参考人物左侧黑白剪贴，右侧大字，撕边纸和抽象波浪线；财经社论风，不添加虚构价格数据。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W06",
+      "reference": "public/media/W06.webp",
+      "headline": [
+        "75载",
+        "与国同行"
+      ],
+      "label": "守护国之重器",
+      "direction": "砖红、暖白、深蓝；巨大75占左半边，右侧参考人物小幅剪贴，底部抽象工程剪影插画，现代工业编辑设计。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W07",
+      "reference": "public/media/W07.webp",
+      "headline": [
+        "单亲妈妈",
+        "给孩子的",
+        "底气"
+      ],
+      "label": "保险与家庭",
+      "direction": "温暖桃粉、黑、淡黄；参考女性半身在左，右侧笔记纸承载主标题，手绘爱心与铅笔下划线；有力温柔，不生成小孩。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W08",
+      "reference": "public/media/W08.webp",
+      "headline": [
+        "给阿嬷的情书",
+        "读懂年金险"
+      ],
+      "label": "一封信，一份牵挂",
+      "direction": "旧照片暖棕、奶油白、朱红；参考女性右下胶片照片，左侧大字，一封空白信封与单朵压花；情感书信杂志风。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W09",
+      "reference": "public/media/W09.webp",
+      "headline": [
+        "1.5%",
+        "vs",
+        "1.75%",
+        "分红险怎么选？"
+      ],
+      "label": "红利演示，越高越好？",
+      "direction": "薰衣草紫、奶白、深紫；两张大数字卡片对比，参考白西装女性右下半身剪贴，知识笔记风；无额外收益图。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W10",
+      "reference": "public/media/W10.webp",
+      "headline": [
+        "年轻人的",
+        "健康警报"
+      ],
+      "label": "热点科普",
+      "direction": "珊瑚红、奶油白、石墨；参考男性眼镜和西装保留，右侧剪贴，左侧大字，手绘醒目括号和心跳波形；不增加诊断或情绪导致癌症的结论。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W11",
+      "reference": "public/media/W11.webp",
+      "headline": [
+        "花舞瞬间",
+        "把花开剪成诗"
+      ],
+      "label": "艺术短片",
+      "direction": "保留参考花卉、淡紫粉色花瓣，奶油黄背景，大花交叠版心，深紫剪纸星芒与透明胶带；大胆细腻艺术杂志，不压花心。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W12",
+      "reference": "public/media/W12.webp",
+      "headline": [
+        "等等…",
+        "这居然",
+        "是蛋糕？！"
+      ],
+      "label": "神奇的蛋糕",
+      "direction": "保留切开的包形蛋糕和夹层，主体右侧，底部局部粉白棋盘格，左上大字和黄色问号；趣味甜品杂志。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W13",
+      "reference": "public/media/W13.webp",
+      "headline": [
+        "梦幻绘画",
+        "走进画里的世界"
+      ],
+      "label": "艺术短片",
+      "direction": "保留参考黄色天空、蓝绿峡谷、树木与倒影，全幅画面；下部深蓝纸带与奶白大字，酸黄圆点及艺术展签。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W14",
+      "reference": "public/media/W14.webp",
+      "headline": [
+        "摄影",
+        "还可以",
+        "这样玩？！"
+      ],
+      "label": "趣味摄影",
+      "direction": "保留红蓝磁铁与相拥人像创意，暖灰背景，珊瑚红天蓝拼贴纸，标题分行在左，右上白色相框角；创意摄影笔记。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W15",
+      "reference": "public/media/W15.webp",
+      "headline": [
+        "夏加尔",
+        "把梦画成浪漫"
+      ],
+      "label": "人物故事",
+      "direction": "保留原画蓝夜、红花、月亮和情侣，横向编排，蓝底米黄大字和细红线；现代艺术图录，不生成新人物或新画冒充作品。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W16",
+      "reference": "public/media/W16.webp",
+      "headline": [
+        "钱锺书",
+        "与林徽因"
+      ],
+      "label": "人物故事",
+      "direction": "保留参考黑白女性肖像，墨黑、暖白、柠檬黄；照片右半，左侧大字、旧书页局部和荧光笔圈线；不生成男肖像或写恋爱故事。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W17",
+      "reference": "public/media/W17.webp",
+      "headline": [
+        "速度之外",
+        "镜头里的张力"
+      ],
+      "label": "汽车视觉 · 个人练习",
+      "direction": "保留奔驰车头车型、格栅与徽标，右半完整摄影，石墨银灰与电光橙，左侧大字与胶片角标；不虚构性能。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W18",
+      "reference": "public/media/W18.webp",
+      "headline": [
+        "金堂十二时辰",
+        "一座城的一天"
+      ],
+      "label": "文旅 · 个人练习",
+      "direction": "保留参考落日、山脉、古装背影，全幅琥珀与炭黑，现代黑体大字左对齐，底部12格装饰时间标记；不添加新地标或水墨。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W19",
+      "reference": "public/media/W19.webp",
+      "headline": [
+        "春日与蝴蝶",
+        "推开窗，就是春天"
+      ],
+      "label": "视觉叙事 · 个人练习",
+      "direction": "保留动漫女孩推窗、白裙、金发、春日绿意，右侧主体，左侧奶黄留白与蝴蝶剪贴，翠绿粗体；清新醒目。",
+      "status": "已生成并接入"
+    },
+    {
+      "id": "W20",
+      "reference": "public/media/W20.webp",
+      "headline": [
+        "雪山与微光",
+        "AI 视觉实验"
+      ],
+      "label": "广告剪辑 · 个人练习",
+      "direction": "保留紫色产品瓶、雪山暮色湖面和产品外形，暗紫粉霞，右侧产品左侧奶白大字；精致美妆实验，不添加功效或品牌背书。",
+      "status": "已生成并接入"
+    }
+  ]
+}

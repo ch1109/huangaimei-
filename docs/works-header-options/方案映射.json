@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-18",
+  "scope": "仅作品区顶部的标题、简介和统计区域；不涉及首屏、筛选栏或后续作品网格",
+  "reference": "C:/Users/10679/AppData/Local/Temp/codex-clipboard-90bacf6a-7722-4430-bf70-aa902a1e6662.png",
+  "status": "用户要求继续后，已将克制文案应用到现有网页标题区，并收紧字号、留白和统计信息；没有按未选定的方案重排其他模块",
+  "latestFeedback": "用户认为‘作品，各有其章’文字夸张；采用具体克制的文案",
+  "proposedHeading": "视频作品",
+  "proposedDescription": "拍摄、剪辑与视觉包装作品选集。",
+  "authoritativeOrder": "最近三张主聊天展示图，标题均为‘视频作品’；取代旧的衔接方案及仍含夸张标题的旧图",
+  "options": [
+    {
+      "number": 1,
+      "name": "紧凑横排",
+      "file": "01-horizontal-plain.png",
+      "result": "exec-668b9d2b-c0f9-488d-a454-31f71699fb51"
+    },
+    {
+      "number": 2,
+      "name": "居中排版",
+      "file": "02-centered-plain.png",
+      "result": "exec-4c8adfc3-5dec-46ae-bea3-1df33fd29fe5"
+    },
+    {
+      "number": 3,
+      "name": "编辑式两栏",
+      "file": "03-editorial-plain.png",
+      "result": "exec-d2ba8ec3-ee0c-4407-ae49-71aff3099647"
+    }
+  ],
+  "invariants": [
+    "同一现代无衬线字体",
+    "沿用炭黑、暖白、雾紫色系",
+    "保留20作品、4章节、6项目模块",
+    "不重新编排已认可的作品模块",
+    "去掉重复英文标语和抒情句"
+  ],
+  "implementation": {
+    "heading": "视频作品",
+    "description": "拍摄、剪辑与视觉包装作品选集。",
+    "desktop": "保持现有左文右统计布局，移除重复英文标语，缩小标题与数量字号",
+    "mobile": "标题与简介在上方，数量与章节信息横向排列",
+    "verification": "TypeScript、Vite 构建及现有 3 文件 24 项测试通过；桌面与手机无横向溢出",
+    "screenshots": [
+      "implemented-desktop.png",
+      "implemented-mobile.png",
+      "implemented-header.png"
+    ]
+  }
+}
