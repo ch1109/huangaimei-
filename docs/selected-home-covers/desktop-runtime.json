@@ -1,0 +1,78 @@
+[
+  {
+    "card": {
+      "height": 400.1875,
+      "width": 288.140625,
+      "x": 77.234375,
+      "y": 401.5625
+    },
+    "complete": true,
+    "fit": "contain",
+    "id": "W01",
+    "image": {
+      "height": 246.2098693847656,
+      "width": 262.1644287109375,
+      "x": 90.2224578857422,
+      "y": 441.5479431152344
+    },
+    "radius": "12px",
+    "src": "/home/W01-selected-cover.webp"
+  },
+  {
+    "card": {
+      "height": 400.1875,
+      "width": 288.140625,
+      "x": 404.6875,
+      "y": 456.578125
+    },
+    "complete": true,
+    "fit": "contain",
+    "id": "W03",
+    "image": {
+      "height": 255.10134887695312,
+      "width": 262.1644287109375,
+      "x": 417.6755981445313,
+      "y": 496.5635681152344
+    },
+    "radius": "12px",
+    "src": "/home/W03-selected-cover.webp"
+  },
+  {
+    "card": {
+      "height": 400.1875,
+      "width": 288.140625,
+      "x": 732.125,
+      "y": 437.59375
+    },
+    "complete": true,
+    "fit": "cover",
+    "id": "W11",
+    "image": {
+      "height": 246.2098693847656,
+      "width": 262.1644287109375,
+      "x": 745.1130981445312,
+      "y": 477.5791931152344
+    },
+    "radius": "12px",
+    "src": "/home/W11-first-frame.webp"
+  },
+  {
+    "card": {
+      "height": 400.1875,
+      "width": 288.140625,
+      "x": 1059.578125,
+      "y": 465.75
+    },
+    "complete": true,
+    "fit": "cover",
+    "id": "W15",
+    "image": {
+      "height": 249.52267456054688,
+      "width": 262.16455078125,
+      "x": 1072.566162109375,
+      "y": 505.7354431152344
+    },
+    "radius": "12px",
+    "src": "/home/W15-first-frame.webp"
+  }
+]

@@ -17,7 +17,7 @@ describe('作品内容', () => {
     expect(filterWorks('商业内容')).toHaveLength(10);
     expect(filterWorks('艺术与故事')).toHaveLength(6);
     expect(filterWorks('个人练习')).toHaveLength(4);
-    expect(featured.map(w => w.id)).toEqual(['W11','W01','W15','W18']);
+    expect(featured.map(w => w.id)).toEqual(['W01','W03','W11','W15']);
     expect(works.every(w => w.poster && w.video && w.responsibilities.length)).toBe(true);
   });
   it('下一件按来源分类循环', () => {
@@ -54,9 +54,11 @@ describe('飞书分类与完整项目简介', () => {
     expect(document.querySelector('video')).toBeNull();
     expect(HTMLMediaElement.prototype.play).not.toHaveBeenCalled();
   });
-  it('开场使用原片，作品区保留封面、完整标题、职责和四部个人练习简介', () => {
+  it('首页使用选定封面与开场帧，作品区保留封面、完整标题、职责和四部个人练习简介', () => {
     renderApp();
-    expect(document.querySelector<HTMLImageElement>('#hero-film img')?.getAttribute('src')).toBe('/home/W11-first-frame.webp');
+    expect(document.querySelector<HTMLImageElement>('#hero-film img')?.getAttribute('src')).toBe('/home/W01-selected-cover.webp');
+    expect(document.querySelector<HTMLImageElement>('#hero-film-W03 img')?.getAttribute('src')).toBe('/home/W03-selected-cover.webp');
+    expect(document.querySelector<HTMLImageElement>('#hero-film-W11 img')?.getAttribute('src')).toBe('/home/W11-first-frame.webp');
     expect(document.querySelector<HTMLImageElement>('#hero-film-W15 img')?.getAttribute('src')).toBe('/home/W15-first-frame.webp');
     expect(document.querySelectorAll('.collection-films .designed-cover')).toHaveLength(20);
     expect(document.querySelectorAll('.collection-film .work-role')).toHaveLength(20);
@@ -111,10 +113,10 @@ describe('浏览与详情', () => {
     const trigger = document.getElementById('hero-film')!;
     fireEvent.click(trigger);
     expect(HTMLMediaElement.prototype.play).not.toHaveBeenCalled();
-    const play = within(screen.getByRole('region', { name: '精选视频作品' })).getByRole('button', { name: '播放花舞瞬间' });
+    const play = within(screen.getByRole('region', { name: '精选视频作品' })).getByRole('button', { name: '播放高客线上买保险，为什么非要找你？' });
     fireEvent.click(play);
     await waitFor(() => expect(HTMLMediaElement.prototype.play).toHaveBeenCalled());
-    expect(screen.getByRole('dialog').textContent).toContain('花舞瞬间');
+    expect(screen.getByRole('dialog').textContent).toContain('高客线上买保险，为什么非要找你？');
     fireEvent.click(screen.getByRole('button', { name: '关闭作品详情' }));
     await waitFor(() => expect(document.activeElement).toBe(play));
     expect(HTMLMediaElement.prototype.pause).toHaveBeenCalled();
@@ -130,9 +132,9 @@ describe('浏览与详情', () => {
   it('开场按艺术模块继续播放，关闭后保留作品区分类', async () => {
     renderApp();
     fireEvent.click(screen.getByRole('button', { name: '个人创作练习' }));
-    fireEvent.click(document.getElementById('hero-film')!);
-    fireEvent.click(screen.getByRole('button', { name: '播放花舞瞬间' }));
-    expect(screen.getByRole('button', { name: /下一件作品/ }).textContent).toContain('神奇的蛋糕');
+    fireEvent.click(document.getElementById('hero-film-W11')!);
+    fireEvent.click(screen.getByRole('button', { name: '播放用相机捕捉花之舞：花舞瞬间' }));
+    expect(screen.getByRole('button', { name: /下一件作品/ }).textContent).toContain('神奇蛋糕');
     fireEvent.click(screen.getByRole('button', { name: '关闭作品详情' }));
     await waitFor(() => expect(document.querySelector('dialog')).toBeNull());
     expect(document.querySelectorAll('.collection-film')).toHaveLength(4);
@@ -179,7 +181,7 @@ describe('浏览与详情', () => {
   });
   it('直接访问详情可读，默认不自动播放', () => {
     renderApp('/works/marc-chagall');
-    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('夏加尔：人物故事');
+    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('梦境色彩缔造者：夏加尔的超现实艺术世界');
     expect(document.querySelector('dialog')).toBeNull();
     expect(HTMLMediaElement.prototype.play).not.toHaveBeenCalled();
   });
@@ -207,6 +209,29 @@ describe('播放异常', () => {
 });
 
 describe('求职联系', () => {
+  it('邮箱与手机分别联系、分别复制，反馈互不干扰', async () => {
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: vi.fn().mockResolvedValue(undefined) } });
+    renderApp();
+    const contact = within(screen.getByRole('region', { name: '联系方式' }));
+    expect(contact.getByRole('link', { name: '825019917@qq.com' }).getAttribute('href')).toBe('mailto:825019917@qq.com');
+    expect(contact.getByRole('link', { name: '18260955840' }).getAttribute('href')).toBe('tel:18260955840');
+    fireEvent.click(contact.getByRole('button', { name: '复制手机号' }));
+    await waitFor(() => expect(contact.getByText('手机号已复制')).toBeTruthy());
+    expect(navigator.clipboard.writeText).toHaveBeenLastCalledWith('18260955840');
+    expect(contact.getByRole('button', { name: '复制邮箱' }).textContent).toBe('复制邮箱');
+    fireEvent.click(contact.getByRole('button', { name: '复制邮箱' }));
+    await waitFor(() => expect(contact.getByText('邮箱已复制')).toBeTruthy());
+    expect(navigator.clipboard.writeText).toHaveBeenLastCalledWith('825019917@qq.com');
+    expect(contact.getByText('手机号已复制')).toBeTruthy();
+  });
+  it('手机复制受阻时选中正确号码供手动复制', async () => {
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: vi.fn().mockRejectedValue(new Error('blocked')) } });
+    renderApp();
+    fireEvent.click(screen.getByRole('button', { name: '复制手机号' }));
+    await waitFor(() => expect(screen.getByText('请选择手机号文字，手动复制。')).toBeTruthy());
+    expect(window.getSelection()?.toString()).toBe('18260955840');
+    expect(screen.queryByText('邮箱已复制')).toBeNull();
+  });
   it('邮箱复制成功有明确反馈', async () => {
     Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: vi.fn().mockResolvedValue(undefined) } });
     renderApp();

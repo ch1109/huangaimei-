@@ -1,0 +1,28 @@
+{
+  "size": [
+    1915,
+    1234
+  ],
+  "mean_rgb_change_out_of_255": {
+    "left": 18.677,
+    "right": 15.155,
+    "empty_center": 0.165
+  },
+  "phase_b_average_rgb": {
+    "left": [
+      37.28,
+      23.28,
+      55.5
+    ],
+    "right": [
+      32.32,
+      26.06,
+      53.56
+    ],
+    "empty_center": [
+      5.03,
+      3.65,
+      7.27
+    ]
+  }
+}

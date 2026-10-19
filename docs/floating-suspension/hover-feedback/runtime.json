@@ -1,0 +1,269 @@
+{
+  "baseline": {
+    "cards": [
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 259.09375,
+          "y": 431.46875
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W01",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0,
+        "arrow": "matrix(1.01362, 0, 0, 1.01362, 0, 0)",
+        "background": "rgba(246, 248, 253, 0.87)",
+        "border": "rgba(249, 247, 252, 0.77)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 619.09375,
+          "y": 491.9375
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W03",
+        "inlineTransform": "transform: rotateX(0.066557deg) rotateY(-0.411242deg) rotateZ(-0.0171571deg);",
+        "origin": "158.398px 0px",
+        "scale": "1.00205",
+        "transform": "matrix3d(0.999974, -0.000307785, 0.00717711, 0, 0.00029944, 0.999999, 0.00116379, 0, -0.00717746, -0.00116161, 0.999974, 0, 0, 0, 0, 1)"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 979.09375,
+          "y": 471.0625
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W11",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 1339.09375,
+          "y": 502.03125
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W15",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      }
+    ],
+    "height": 1244,
+    "scrollY": 0,
+    "width": 1930
+  },
+  "active": {
+    "cards": [
+      {
+        "anchorError": 0,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 259.09375,
+          "y": 431.46875
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W01",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 619.09375,
+          "y": 491.9375
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W03",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.00028790225622731333,
+        "arrow": "matrix(1.12, 0, 0, 1.12, 0, 0)",
+        "background": "rgba(248, 249, 255, 0.96)",
+        "border": "rgb(214, 198, 233)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 979.09375,
+          "y": 471.0625
+        },
+        "drift": "paused",
+        "flipped": false,
+        "hovered": true,
+        "id": "W11",
+        "inlineTransform": "transform: rotateX(2.23934deg) rotateY(-2.81709deg) rotateZ(-0.128781deg);",
+        "origin": "158.398px 0px",
+        "scale": "1.025",
+        "transform": "matrix3d(0.998789, -0.00416632, 0.0490222, 0, 0.00224494, 0.999229, 0.0391841, 0, -0.0491477, -0.0390266, 0.998029, 0, 0, 0, 0, 1)"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 1339.09375,
+          "y": 502.03125
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W15",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      }
+    ],
+    "height": 1244,
+    "scrollY": 0,
+    "width": 1930
+  },
+  "reset": {
+    "cards": [
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 259.09375,
+          "y": 431.46875
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W01",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 619.09375,
+          "y": 491.9375
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W03",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 979.09375,
+          "y": 471.0625
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W11",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      },
+      {
+        "anchorError": 0.000030517578125,
+        "arrow": "none",
+        "background": "rgba(246, 248, 253, 0.86)",
+        "border": "rgba(255, 255, 255, 0.74)",
+        "bounds": {
+          "height": 439.984375,
+          "width": 316.796875,
+          "x": 1339.09375,
+          "y": 502.03125
+        },
+        "drift": "running",
+        "flipped": false,
+        "hovered": false,
+        "id": "W15",
+        "inlineTransform": "transform: none;",
+        "origin": "158.398px 0px",
+        "scale": "1",
+        "transform": "none"
+      }
+    ],
+    "height": 1244,
+    "scrollY": 0,
+    "width": 1930
+  },
+  "playback": {
+    "open": true,
+    "paused": false,
+    "url": "http://127.0.0.1:5173/works/flowers-in-motion",
+    "video": "/media/W11.mp4"
+  }
+}

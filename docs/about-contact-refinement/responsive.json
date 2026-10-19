@@ -1,0 +1,163 @@
+[
+  {
+    "aboutColumns": "257px",
+    "contacts": [
+      {
+        "gap": 18,
+        "linkScrollWidth": 171,
+        "linkWidth": 171,
+        "scrollWidth": 251,
+        "width": 251
+      },
+      {
+        "gap": 76,
+        "linkScrollWidth": 112,
+        "linkWidth": 112,
+        "scrollWidth": 251,
+        "width": 251
+      }
+    ],
+    "experienceColumns": "257px",
+    "pageWidth": 305,
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "aboutColumns": "297px",
+    "contacts": [
+      {
+        "gap": 16,
+        "linkScrollWidth": 209,
+        "linkWidth": 209,
+        "scrollWidth": 291,
+        "width": 291
+      },
+      {
+        "gap": 81,
+        "linkScrollWidth": 144,
+        "linkWidth": 144,
+        "scrollWidth": 291,
+        "width": 291
+      }
+    ],
+    "experienceColumns": "297px",
+    "pageWidth": 345,
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "aboutColumns": "327px",
+    "contacts": [
+      {
+        "gap": 31,
+        "linkScrollWidth": 224,
+        "linkWidth": 224,
+        "scrollWidth": 321,
+        "width": 321
+      },
+      {
+        "gap": 101,
+        "linkScrollWidth": 155,
+        "linkWidth": 155,
+        "scrollWidth": 321,
+        "width": 321
+      }
+    ],
+    "experienceColumns": "327px",
+    "pageWidth": 375,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "aboutColumns": "232.016px 301.625px",
+    "contacts": [
+      {
+        "gap": 38,
+        "linkScrollWidth": 201,
+        "linkWidth": 201,
+        "scrollWidth": 302,
+        "width": 302
+      },
+      {
+        "gap": 101,
+        "linkScrollWidth": 138,
+        "linkWidth": 138,
+        "scrollWidth": 302,
+        "width": 302
+      }
+    ],
+    "experienceColumns": "573.797px",
+    "pageWidth": 625,
+    "scrollWidth": 625,
+    "width": 640
+  },
+  {
+    "aboutColumns": "279.625px 363.516px",
+    "contacts": [
+      {
+        "gap": 100,
+        "linkScrollWidth": 201,
+        "linkWidth": 201,
+        "scrollWidth": 364,
+        "width": 364
+      },
+      {
+        "gap": 162,
+        "linkScrollWidth": 138,
+        "linkWidth": 138,
+        "scrollWidth": 364,
+        "width": 364
+      }
+    ],
+    "experienceColumns": "326.578px 326.578px",
+    "pageWidth": 753,
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "aboutColumns": "370.828px 482.094px",
+    "contacts": [
+      {
+        "gap": 201,
+        "linkScrollWidth": 209,
+        "linkWidth": 209,
+        "scrollWidth": 482,
+        "width": 482
+      },
+      {
+        "gap": 264,
+        "linkScrollWidth": 146,
+        "linkWidth": 146,
+        "scrollWidth": 482,
+        "width": 482
+      }
+    ],
+    "experienceColumns": "437.938px 437.953px",
+    "pageWidth": 1009,
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "aboutColumns": "461.047px 691.562px",
+    "contacts": [
+      {
+        "gap": 169,
+        "linkScrollWidth": 259,
+        "linkWidth": 259,
+        "scrollWidth": 500,
+        "width": 500
+      },
+      {
+        "gap": 249,
+        "linkScrollWidth": 179,
+        "linkWidth": 179,
+        "scrollWidth": 500,
+        "width": 500
+      }
+    ],
+    "experienceColumns": "618.891px 618.906px",
+    "pageWidth": 1425,
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]

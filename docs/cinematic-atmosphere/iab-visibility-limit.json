@@ -1,0 +1,5 @@
+{
+  "hidden": false,
+  "report": "{\n  \"seconds\": 313,\n  \"frames\": 44429,\n  \"drawSamples\": 18718,\n  \"drawMeanMs\": 0.7442515226076436,\n  \"drawP95Ms\": 1.1000000014901161,\n  \"frameP50Ms\": 14,\n  \"frameP95Ms\": 20.900000000023283,\n  \"field\": {\n    \"running\": \"true\",\n    \"motion\": \"flow\",\n    \"buffer\": [\n      1000,\n      645\n    ]\n  },\n  \"visibility\": [],\n  \"phases\": [\n    {\n      \"seconds\": 5,\n      \"meanRGBChange\": 0\n    },\n    {\n      \"seconds\": 35,\n      \"meanRGBChange\": 0.9410807291666666\n    },\n    {\n      \"seconds\": 185,\n      \"meanRGBChange\": 3.513454861111111\n    }\n  ],\n  \"errors\": [],\n  \"pointerTest\": \"idle\"\n}",
+  "running": "true"
+}

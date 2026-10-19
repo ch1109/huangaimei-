@@ -1,0 +1,1090 @@
+{
+  "steps": [
+    {
+      "step": "W01 click",
+      "cards": [
+        {
+          "backHidden": false,
+          "frontHidden": true,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-detail-W01",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W01",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W03",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W11",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W15",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        }
+      ],
+      "scrollY": 113,
+      "url": "http://127.0.0.1:5173/#selected"
+    },
+    {
+      "step": "all four cards two mouse flip-and-return cycles",
+      "cards": [
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "within": false,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "within": false,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "within": false,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W01",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W03",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W11",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W15",
+          "phase": "idle",
+          "scale": "1.025",
+          "visualTransform": "none"
+        }
+      ],
+      "scrollY": 315,
+      "url": "http://127.0.0.1:5173/#selected"
+    },
+    {
+      "step": "hovered W03 hit areas",
+      "cards": [
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W01",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W03",
+          "phase": "idle",
+          "scale": "1.025",
+          "visualTransform": "matrix3d(0.999121, -0.00350601, 0.0417684, 0, 0.00191301, 0.999271, 0.0381179, 0, -0.0418716, -0.0380045, 0.9984, 0, 0, 0, 0, 1)"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W11",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W15",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        }
+      ],
+      "scrollY": 7,
+      "url": "http://127.0.0.1:5173/#selected"
+    },
+    {
+      "step": "Escape return and double click",
+      "cards": [
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "within": false,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "within": false,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "within": false,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W01",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W03",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W03",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W11",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W11",
+          "phase": "idle",
+          "scale": "1",
+          "visualTransform": "none"
+        },
+        {
+          "backHidden": true,
+          "frontHidden": false,
+          "frontTransform": "none",
+          "hits": [
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.15,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.15
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.5
+            },
+            {
+              "button": "hero-film-W15",
+              "within": true,
+              "x": 0.85,
+              "y": 0.85
+            }
+          ],
+          "id": "W15",
+          "phase": "idle",
+          "scale": "1.025",
+          "visualTransform": "none"
+        }
+      ],
+      "scrollY": 315,
+      "url": "http://127.0.0.1:5173/#selected"
+    }
+  ],
+  "detail": {
+    "dialog": true,
+    "hasVideo": false,
+    "url": "http://127.0.0.1:5173/works/insurance-online"
+  },
+  "playback": {
+    "dialog": true,
+    "paused": false,
+    "url": "http://127.0.0.1:5173/works/taiying-2026",
+    "video": "/media/W03.mp4"
+  },
+  "mobileFirst": {
+    "backHeight": 365,
+    "backScrollHeight": 365,
+    "flipped": "W01",
+    "overflow": false,
+    "scrollLeft": 0,
+    "width": 390
+  },
+  "mobileLast": {
+    "backHeight": 365,
+    "backScrollHeight": 365,
+    "flipped": "W15",
+    "overflow": false,
+    "scrollLeft": 849,
+    "width": 390
+  },
+  "checks": {
+    "tests": 39,
+    "build": "passed"
+  }
+}

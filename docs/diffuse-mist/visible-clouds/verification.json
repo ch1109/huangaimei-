@@ -1,0 +1,38 @@
+{
+  "frames": 21,
+  "seconds": 8.002,
+  "samples": [
+    {
+      "seconds": 2.009,
+      "mean_rgb_change_out_of_255": {
+        "left": 29.383,
+        "right": 17.602,
+        "empty_center": 1.252,
+        "portrait_crop": 0.0
+      }
+    },
+    {
+      "seconds": 4.01,
+      "mean_rgb_change_out_of_255": {
+        "left": 17.85,
+        "right": 23.803,
+        "empty_center": 2.545,
+        "portrait_crop": 0.0
+      }
+    },
+    {
+      "seconds": 8.002,
+      "mean_rgb_change_out_of_255": {
+        "left": 54.584,
+        "right": 26.396,
+        "empty_center": 2.247,
+        "portrait_crop": 0.0
+      }
+    }
+  ],
+  "last_center_rgb": [
+    6.68,
+    5.29,
+    10.15
+  ]
+}

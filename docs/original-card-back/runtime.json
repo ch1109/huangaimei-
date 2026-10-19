@@ -1,0 +1,94 @@
+{
+  "back": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "bounds": {
+        "height": 400.1875,
+        "width": 288.140625,
+        "x": 77.234375,
+        "y": 401.5625
+      },
+      "color": "rgb(42, 38, 48)",
+      "detailColor": "rgb(109, 90, 123)",
+      "filter": "blur(16px)",
+      "id": "hero-back-W01",
+      "playBackground": "rgb(48, 39, 55)",
+      "sheen": "0.9"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "bounds": {
+        "height": 400.1875,
+        "width": 288.140625,
+        "x": 404.6875,
+        "y": 456.578125
+      },
+      "color": "rgb(42, 38, 48)",
+      "detailColor": "rgb(109, 90, 123)",
+      "filter": "blur(16px)",
+      "id": "hero-back-W03",
+      "playBackground": "rgb(48, 39, 55)",
+      "sheen": "0.9"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "bounds": {
+        "height": 400.1875,
+        "width": 288.140625,
+        "x": 732.125,
+        "y": 437.59375
+      },
+      "color": "rgb(42, 38, 48)",
+      "detailColor": "rgb(109, 90, 123)",
+      "filter": "blur(16px)",
+      "id": "hero-back-W11",
+      "playBackground": "rgb(48, 39, 55)",
+      "sheen": "0.9"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "bounds": {
+        "height": 400.1875,
+        "width": 288.140625,
+        "x": 1059.578125,
+        "y": 465.75
+      },
+      "color": "rgb(42, 38, 48)",
+      "detailColor": "rgb(109, 90, 123)",
+      "filter": "blur(16px)",
+      "id": "hero-back-W15",
+      "playBackground": "rgb(48, 39, 55)",
+      "sheen": "0.9"
+    }
+  ],
+  "fronts": [
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "color": "rgb(37, 39, 51)",
+      "filter": "blur(22px) saturate(0.65)",
+      "sheen": "0.12"
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "color": "rgb(37, 39, 51)",
+      "filter": "blur(22px) saturate(0.65)",
+      "sheen": "0.12"
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "color": "rgb(37, 39, 51)",
+      "filter": "blur(22px) saturate(0.65)",
+      "sheen": "0.12"
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "color": "rgb(37, 39, 51)",
+      "filter": "blur(22px) saturate(0.65)",
+      "sheen": "0.12"
+    }
+  ],
+  "viewport": {
+    "height": 1000,
+    "width": 1440
+  }
+}

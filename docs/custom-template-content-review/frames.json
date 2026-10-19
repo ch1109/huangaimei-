@@ -1,0 +1,22 @@
+[
+  {
+    "workId": "W03",
+    "frames": 74,
+    "sampleIntervalSeconds": 2
+  },
+  {
+    "workId": "W04",
+    "frames": 71,
+    "sampleIntervalSeconds": 2
+  },
+  {
+    "workId": "W05",
+    "frames": 59,
+    "sampleIntervalSeconds": 2
+  },
+  {
+    "workId": "W06",
+    "frames": 60,
+    "sampleIntervalSeconds": 2
+  }
+]

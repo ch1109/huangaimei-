@@ -1,55 +1,52 @@
-# 紫黑弥散背景与首帧封面验收
+# 卡片形态与交互动效验收
 
-日期：2026-10-19。范围：全站参考紫黑背景，保留浅色卡片并增加轻微透底；首页花舞瞬间、夏加尔改用视频第一帧。
+2026-10-19。本轮仅按参考视频修改首页四张卡片，连接线按用户要求保留。上一次验收已备份至 docs/card-video-reference/previous-design-qa.md。
 
-## Findings 与迭代
+## 参考与实现证据
 
-- [P2，已修复] home-initial.png 中原裁切位置截断了封面中文标题。将 W11 的 object-position 调为 center 60%，W15 调为 center 58%。重新捕获 home-final.png，并与用户原图同图比较，中文标题已完整显示。
-- 最终没有未解决的 P0/P1/P2。Finova 图片只提供背景颜色与光线方向，不复制其排版文案。保留浅灰卡片、虹彩背面及悬挂排布是用户明确要求的差异。
+source visual truth path：D:/xwechat_files/wxid_d0cdhx7yr49e22_fee7/msg/video/2026-10/7499d10045789f95be07b910f065196e_raw.mp4。视频为1170×814，10.92秒。已查看抽帧序列、3.3秒正面与4.5秒背面；解码帧为 docs/card-video-reference/reference-front.jpg 和 reference-back.jpg。原站布局和内容以用户附图 C:/Users/10679/AppData/Local/Temp/codex-clipboard-fd8b7675-20a8-4764-9e6c-90f3b60f2603.png 为依据。
 
-## 比较依据
+implementation screenshot path：docs/card-video-reference/desktop-final.png、desktop-back.png、desktop-front-hover.png、desktop-back-hover.png。
+viewport：1930×1244 CSS px，DPR=1；工具保存1915×1234像素，约0.992倍缩放。源视频解码帧1170×814原生像素，无额外密度缩放。
+state：四张正面、W11背面、正反面悬停。
 
-- source visual truth path：docs/purple-diffusion/user-reference.jpg，2532 × 1170。原文件为用户提供的 D:/xwechat_files/wxid_d0cdhx7yr49e22_fee7/temp/RWTemp/2026-10/0ee3bd158eed7664b5b35c203a92dfdb/5e4515caa24727adec573a1e57e1b4b8.jpg。
-- 两张封面依据：同目录 cover-reference-W11.png、cover-reference-W15.png、cover-targets.png。实际素材从 public/media/W11.mp4 与 W15.mp4 解码第一帧，没有取后续画面或生成封面。
-- implementation screenshot path：docs/purple-diffusion/home-final.png。viewport 1440 × 1000 CSS px，devicePixelRatio=1；浏览器截图接口返回可视内容区域 1425 × 990 像素。state：首页顶端、四张正面、静止状态。
-- full-view comparison evidence：comparison-background.png。参考图裁取网站本身 (562,146)–(1968,1025)，排除外框和设备边缘，与真实首页等比缩小并排。比较右上、左下紫色光域和黑色中心，不比较不同产品布局。
-- focused region comparison evidence：comparison-covers.png。用户两张原图与最终两张卡片同图展示。保留近方形画框，中文标题完整；上部 EFFIAN 标识及部分画面边缘因画幅差异受到裁切，这是保留现有布局的结果。
-- 先检查 home-initial.png，修改后重新捕获 home-final.png，再查看上述两个组合对照。旧版卡片验收保存在 previous-design-qa.md。
+full-view / focused region comparison evidence：已实际打开 docs/card-video-reference/comparison.jpg，同图包含参考全景、实现精选区以及正面和虹彩背面局部。全景以580px宽、局部以270px宽等比展示，不拉伸。参考约0.72的卡片宽高比与原站相同；背景、作品图片、中文内容、布局与连接线属于用户要求保留的产品上下文，不按视频整页替换。
+
+## 实现
+
+- 四张卡片从顶部中心独立轻摆，采用不同初始偏角、周期与相位。悬停卡片暂停自动摆动，其余继续。
+- 正反面都跟随鼠标倾斜，俯仰最高±8°，水平偏转为初始角叠加±14°，平面旋转为初始角叠加±2.5°。弹簧回位，悬停轻微放大至1.018。
+- 翻面采用0.26秒转出与0.58秒回弹转入，在90°侧面切换内容，带轻微过冲。动画期间禁用实际按钮，避免误触。
+- 继续使用已有 /home/card-sheen.png；正面为90%冷白底板与24%弱虹彩，背面保留原虹彩。反光位置随角度变化。
+- 可见卡片参与倾斜；正反面的原生点击入口保持稳定。背面展示动作对辅助技术隐藏，实际操作层提供播放、详情和返回按钮。点击范围覆盖摆动边缘。
+- 减少动态时关闭摇摆、倾斜、缩放与翻面过渡；触屏不执行鼠标跟随。保留原横向滚动和键盘路径，高对比模式显示原生按钮。
 
 ## 五项视觉检查
 
-- Fonts and typography：沿用 Microsoft YaHei UI / Microsoft YaHei / PingFang SC / system-ui 字体栈、字号、字重与换行。正文、导航、焦点采用白色及浅紫；浅色卡片保留深灰字，图片和文字 opacity 为 1。
-- Spacing and layout rhythm：四张卡片的尺寸、位置、间距、圆角和标题结构未改。1440 × 1000 下四张卡片完整可见。390 × 844 使用已有局部横向滚动，body.scrollWidth=375，小于 viewport 390；手机背面 clientHeight=scrollHeight=334，无内容溢出。
-- Colors and tokens：共享固定背景层，黑色中心、右上与左下紫色弥散，CSS saturate(.82) brightness(.76) 控制亮度。导航、作品、关于、联系和详情使用同一色系。卡片底色仍为 rgb(241 239 243)，alpha .9；虹彩材质单独以 .9 透明度绘制。依据背景最亮像素和滤镜近似计算，常用小字对比约 4.8:1 以上，仅为辅助估算，非完整无障碍审计。
-- Image quality and asset fidelity：背景位图 public/theme/purple-diffusion.webp 保留参考的紫色方向与黑色负空间，没有额外图形或文字。首帧为 720 × 1280 WebP。W01、W18 原封面、吊线、虹彩位图与图标组件保留。生成素材与提取命令见 asset-generation.md。
-- Copy and content：没有新增营销语、描述、计数或个人经历；作品标题及负责内容保留原始数据。
+字体与排版：沿用现有中文字体、层级和完整标题，长标题规则不变，背面标题正常换行。
+间距与布局：四张卡片尺寸、错落位置、封面裁切和原圆角体系保留；各断点的点击层与可见背面使用相同内边距和按钮高度。
+颜色与材质：珍珠白半透明正面与柔和粉、青、黄、紫色虹彩背面符合参考方向；紫黑背景按范围保留。
+图片质量：使用真实作品封面与首帧，没有替换为参考人物或二维码，没有新增拉伸、锯齿和错误裁切。
+文案：作品名称、机构、负责内容及原有操作文案保留，无新增无关内容。
 
-## 浏览器证据与检查
+## 功能与连接线
 
-- home-final.png 为四张正面，card-back.png 为原虹彩背面和播放、详情入口。
-- works.png、about.png、contact.png 展示连续背景及文字。运行时检查全部 section 背景透明，使用同一 body 背景层。
-- detail-modal.png：首页翻面后点击查看详情，详情显示同色背景，关闭返回卡片。detail-direct.png：单独打开 /works/flowers-in-motion，也采用紫黑背景。
-- mobile-front.png：390 × 844 首页，首帧中文标题完整可见。手机翻面后检查高度没有溢出；mobile-back.png 记录翻面过程，不作为静止状态视觉依据。
-- 首页实际图片 src 为 /home/W11-first-frame.webp、/home/W15-first-frame.webp；另两张为 /media/W01.webp、/media/W18.webp，opacity 均为 1。
-- 浏览器 error 日志为空。4 个测试文件、26 项测试通过，生产构建通过并生成 20 个作品分享页面。没有实体手机验证。
+实际IAB浏览器操作四张卡片完成正面→背面→返回，最终均为phase=idle、flipped=false。背面悬停时三个按钮中心的elementFromPoint均命中对应按钮，悬停卡片自动摆动暂停，其余继续。
 
-## Implementation Checklist
+W11播放进入 /works/flowers-in-motion，原片 /media/W11.mp4 的paused=false、readyState=4，时间正常增加。查看详情没有创建video元素；关闭后焦点返回原入口，Escape可返回封面。桌面没有页面横向溢出，浏览器error/warn日志为空。
 
-- [x] 全站背景、导航和两种详情页统一配色。
-- [x] 保留浅色卡片与虹彩背面，仅材质透底。
-- [x] 两张实际首帧替换，调整裁切并对照检查。
-- [x] 桌面、手机、详情、控制台、测试与构建检查。
+src/components/SuspensionRig.tsx修改前后SHA256相同：551B3BE2664E209B604F4C9FD2570DE764B59FE28CBF483ECA4584310ECA6DE7。连接线CSS、卡片位置和挂点DOM均保留，四个吊线端点的x/y实测误差均为0，见runtime.json。未改线路形状、颜色、粗细或节点。
 
-final result: passed
+pnpm build通过；pnpm test的5个文件、39项测试通过。
 
-## 首页卡片与留白后续调整
+## 比较历史与结论
 
-2026-10-19 用户要求首页吊挂卡片作为主要设计放大，并减少页面之间的留白。移除首页按视口撑高的最小高度，舞台上限提高至 1440px，收紧作品、关于和联系区间距。大屏卡片线性尺寸增加约 22%，卡片至数据区由约 516px 缩至 97px。矮屏与手机分别检查显示范围、翻面内容和整体横向溢出；最终生产构建通过。最新记录及截图见 `docs/spacing-refinement/验收记录.md`。
+第一次完整组合图对照未发现本次范围内的P0/P1/P2视觉问题。实施中补充原生禁用状态、稳定点击层和摆动边缘点击范围，并复查卡片循环操作及构建。组合图第二次仅修正参考背面取景范围，不涉及页面修改。
 
-## 后续分类与文字边界调整
+未用手机浏览器或系统级减少动态设置进行设备模拟；减少动态和触屏功能路径由现有DOM测试覆盖，不将桌面结果表述为手机实机验收。
 
-2026-10-19 按用户最终指定，分类改为 IP拍摄剪辑、保司定制与通用模板视频剪辑、艺术内容与人物故事剪辑、个人创作练习。桌面分类单行排列；窄屏按整个分类换行，每个标签文字保持单行。统一正文边界、左右留白与长标题换行，调整窄屏数据字号和联系标题。
-
-最终证据与七种屏宽检查见 `docs/content-boundaries/验收记录.md`、`desktop-final.png`、`responsive-final.json`。所有分类均一行、抽检文字横向溢出为 0；模板分类正确显示两个模块八部作品；最新构建及 26 项测试通过，控制台 error 为空。
+Findings：无未解决的P0/P1/P2。
+Implementation Checklist：材质、鼠标跟随、独立轻摆、回弹翻面、稳定按钮和原连接线保留均完成。
 
 final result: passed
+

@@ -1,0 +1,18 @@
+{
+  "after": {
+    "animation": "atmosphere-counter-drift, atmosphere-color-wave",
+    "opacity": "0.182548",
+    "transform": "matrix(1.02063, 0, 0, 1.02063, -30.9134, 21.6936)"
+  },
+  "before": {
+    "animation": "atmosphere-drift",
+    "filter": "saturate(0.82) brightness(0.76) hue-rotate(6deg)",
+    "transform": "matrix(1.04905, 0, 0, 1.04905, 5.16616, 8.31903)"
+  },
+  "pageWidth": 1425,
+  "reducedMotion": false,
+  "viewport": {
+    "height": 1000,
+    "width": 1440
+  }
+}

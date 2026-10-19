@@ -23,7 +23,7 @@ export const works: Work[] = raw.map((w) => {
   return { ...w, ...(media as Record<string, object>)[w.id], cover: (covers as Record<string, string>)[w.id], sourceUrl: `${sourceUrl}#${collection.anchor}`, collectionId: collection.id, projectId: collection.projectId, projectIntroduction: individualIntroductions[w.id], caseStudy: caseStudies.find(item => item.workId === w.id) };
 }) as Work[];
 export const caseWorks = works.filter(work => work.caseStudy);
-export const featured = ['W11', 'W01', 'W15', 'W18'].map(id => works.find(w => w.id === id)!);
+export const featured = ['W01', 'W03', 'W11', 'W15'].map(id => works.find(w => w.id === id)!);
 export function filterWorks(category: Category) {
   const selected = category === '全部' ? works : works.filter(w => w.category === category || w.collectionId === category || w.projectId === category);
   if ((categories as readonly string[]).includes(category)) return selected;

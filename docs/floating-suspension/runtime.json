@@ -1,0 +1,570 @@
+{
+  "desktop": {
+    "dropWidth": "0.8px",
+    "headingGap": 45.717562499999985,
+    "links": [
+      {
+        "anchorError": 0,
+        "angle": 0.2508412555474385,
+        "curveError": 3.5658879542064683e-8,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(170, 163, 191)",
+        "nodeOpacity": "0.656001",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0.00006103515625,
+        "angle": 0.22485392048501468,
+        "curveError": 2.9158623884564552e-8,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(169, 162, 191)",
+        "nodeOpacity": "0.651756",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0.00006103515625,
+        "angle": 0.2092286785354717,
+        "curveError": 4.859779934507686e-8,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.2588981091922676,
+        "curveError": 4.2142340304095856e-8,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      }
+    ],
+    "mainStroke": "rgba(168, 161, 190, 0.46)",
+    "mainWidth": "1px",
+    "mask": "url(#_r_6_)",
+    "overflow": false,
+    "stage": {
+      "height": 600.8125,
+      "width": 1309.796875,
+      "x": 57.59375,
+      "y": 314.03125
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 1000,
+      "width": 1440
+    }
+  },
+  "responsive": [
+    {
+      "dropWidth": "0.8px",
+      "headingGap": 35.920000000000016,
+      "links": [
+        {
+          "anchorError": 0,
+          "angle": -0.12526524073839007,
+          "curveError": 8.387333313557968e-9,
+          "duration": "13.7s",
+          "id": "W01",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.21999906341606476,
+          "curveError": 8.382506793838778e-9,
+          "duration": "17.3s",
+          "id": "W03",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.2194484552182228,
+          "curveError": 8.38250649543286e-9,
+          "duration": "15.1s",
+          "id": "W11",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.18010787132441738,
+          "curveError": 8.387332418855342e-9,
+          "duration": "19.7s",
+          "id": "W15",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        }
+      ],
+      "mainStroke": "rgba(168, 161, 190, 0.46)",
+      "mainWidth": "1px",
+      "mask": "url(#_r_6_)",
+      "overflow": false,
+      "stage": {
+        "height": 532.109375,
+        "width": 1160,
+        "x": 52.5,
+        "y": 255.4375
+      },
+      "viewport": {
+        "dpr": 1,
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "dropWidth": "0.8px",
+      "headingGap": 44.39999999999998,
+      "links": [
+        {
+          "anchorError": 0,
+          "angle": -0.15177677202044862,
+          "curveError": 1.3978888135892034e-7,
+          "duration": "13.7s",
+          "id": "W01",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.2185076656751019,
+          "curveError": 1.397084441055296e-7,
+          "duration": "17.3s",
+          "id": "W03",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.21968794973590255,
+          "curveError": 1.397084441481591e-7,
+          "duration": "15.1s",
+          "id": "W11",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.1648046389864528,
+          "curveError": 1.3978888148673525e-7,
+          "duration": "19.7s",
+          "id": "W15",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        }
+      ],
+      "mainStroke": "rgba(168, 161, 190, 0.46)",
+      "mainWidth": "1px",
+      "mask": "url(#_r_6_)",
+      "overflow": false,
+      "stage": {
+        "height": 550.453125,
+        "width": 1200,
+        "x": 12,
+        "y": 267.15625
+      },
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1024
+      }
+    },
+    {
+      "dropWidth": "0.8px",
+      "headingGap": 44.39999999999998,
+      "links": [
+        {
+          "anchorError": 0,
+          "angle": -0.16965986139807746,
+          "curveError": 1.3978888135892034e-7,
+          "duration": "13.7s",
+          "id": "W01",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.2152636024158417,
+          "curveError": 1.397084441055296e-7,
+          "duration": "17.3s",
+          "id": "W03",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.2172993067042392,
+          "curveError": 1.397084441481591e-7,
+          "duration": "15.1s",
+          "id": "W11",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.1509974007448266,
+          "curveError": 1.3978888148673525e-7,
+          "duration": "19.7s",
+          "id": "W15",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        }
+      ],
+      "mainStroke": "rgba(168, 161, 190, 0.46)",
+      "mainWidth": "1px",
+      "mask": "url(#_r_6_)",
+      "overflow": false,
+      "stage": {
+        "height": 550.453125,
+        "width": 1200,
+        "x": 12,
+        "y": 263.15625
+      },
+      "viewport": {
+        "dpr": 1,
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dropWidth": "0.8px",
+      "headingGap": 44.39999999999998,
+      "links": [
+        {
+          "anchorError": 0,
+          "angle": -0.1851710732245202,
+          "curveError": 1.3978888135892034e-7,
+          "duration": "13.7s",
+          "id": "W01",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.20995862210816588,
+          "curveError": 1.397084441055296e-7,
+          "duration": "17.3s",
+          "id": "W03",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.2123048688433145,
+          "curveError": 1.397084441481591e-7,
+          "duration": "15.1s",
+          "id": "W11",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.13525658234156232,
+          "curveError": 1.3978888148673525e-7,
+          "duration": "19.7s",
+          "id": "W15",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        }
+      ],
+      "mainStroke": "rgba(168, 161, 190, 0.46)",
+      "mainWidth": "1px",
+      "mask": "url(#_r_6_)",
+      "overflow": false,
+      "stage": {
+        "height": 550.453125,
+        "width": 1200,
+        "x": 12,
+        "y": 241.875
+      },
+      "viewport": {
+        "dpr": 1,
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dropWidth": "0.8px",
+      "headingGap": 44.39999999999998,
+      "links": [
+        {
+          "anchorError": 0,
+          "angle": -0.1962693944711658,
+          "curveError": 1.3978888135892034e-7,
+          "duration": "13.7s",
+          "id": "W01",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.20368399545140897,
+          "curveError": 1.397084441055296e-7,
+          "duration": "17.3s",
+          "id": "W03",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.20580335198819036,
+          "curveError": 1.397084441481591e-7,
+          "duration": "15.1s",
+          "id": "W11",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        },
+        {
+          "anchorError": 0,
+          "angle": -0.1203647454349809,
+          "curveError": 1.3978888148673525e-7,
+          "duration": "19.7s",
+          "id": "W15",
+          "nodeColor": "rgb(168, 161, 190)",
+          "nodeOpacity": "0.64",
+          "playState": "running"
+        }
+      ],
+      "mainStroke": "rgba(168, 161, 190, 0.46)",
+      "mainWidth": "1px",
+      "mask": "url(#_r_6_)",
+      "overflow": false,
+      "stage": {
+        "height": 550.453125,
+        "width": 1200,
+        "x": 12,
+        "y": 241.875
+      },
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 360
+      }
+    }
+  ],
+  "mobile": {
+    "dropWidth": "0.8px",
+    "headingGap": 44.39999999999998,
+    "links": [
+      {
+        "anchorError": 0,
+        "angle": -0.029565650928588177,
+        "curveError": 1.3978888135892034e-7,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.06821123445375352,
+        "curveError": 1.397084441055296e-7,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.029052223582723725,
+        "curveError": 1.397084441481591e-7,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.08267611625838235,
+        "curveError": 1.3978888148673525e-7,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      }
+    ],
+    "mainStroke": "rgba(168, 161, 190, 0.46)",
+    "mainWidth": "1px",
+    "mask": "url(#_r_6_)",
+    "overflow": false,
+    "stage": {
+      "height": 550.453125,
+      "width": 1200,
+      "x": 12,
+      "y": 241.875
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 844,
+      "width": 390
+    }
+  },
+  "highlight": {
+    "dropWidth": "0.8px",
+    "headingGap": 47.27999999999997,
+    "links": [
+      {
+        "anchorError": 0.000030517578125,
+        "angle": 0.22633500527293143,
+        "curveError": 4.100476847928468e-8,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(196, 189, 212)",
+        "nodeOpacity": "0.9",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0.00006103515625,
+        "angle": -0.21863944497265908,
+        "curveError": 4.098114403173571e-8,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0.00006103515625,
+        "angle": -0.12296825912293244,
+        "curveError": 4.0981143179146017e-8,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.1845900971645612,
+        "curveError": 4.1004737264041876e-8,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "running"
+      }
+    ],
+    "mainStroke": "rgba(168, 161, 190, 0.46)",
+    "mainWidth": "1px",
+    "mask": "url(#_r_6_)",
+    "overflow": false,
+    "stage": {
+      "height": 660.546875,
+      "width": 1440,
+      "x": 237.5,
+      "y": 322.03125
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 1244,
+      "width": 1930
+    }
+  },
+  "offscreen": {
+    "dropWidth": "0.8px",
+    "headingGap": 44.39999999999963,
+    "links": [
+      {
+        "anchorError": 0,
+        "angle": -0.1455382790567129,
+        "curveError": 1.3978888135892034e-7,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "paused"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.08156457930771785,
+        "curveError": 1.397084441055296e-7,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "paused"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.19137693449464457,
+        "curveError": 1.397084441481591e-7,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "paused"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.07902064914969616,
+        "curveError": 1.3978888148673525e-7,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(168, 161, 190)",
+        "nodeOpacity": "0.64",
+        "playState": "paused"
+      }
+    ],
+    "mainStroke": "rgba(168, 161, 190, 0.46)",
+    "mainWidth": "1px",
+    "mask": "url(#_r_6_)",
+    "overflow": false,
+    "stage": {
+      "height": 550.453125,
+      "width": 1200,
+      "x": 12,
+      "y": -8419.125
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 800,
+      "width": 360
+    }
+  },
+  "keyboardPlayback": {
+    "dialogOpen": true,
+    "paused": false,
+    "video": "/media/W03.mp4"
+  },
+  "pointerPlayback": {
+    "open": true,
+    "paused": false,
+    "url": "http://127.0.0.1:5173/works/insurance-online",
+    "video": "/media/W01.mp4"
+  },
+  "checks": {
+    "tests": 34,
+    "build": "passed",
+    "systemReducedMotionEmulation": "not available in in-app browser",
+    "nativeZoomShortcut": "in-app browser did not change zoom"
+  }
+}

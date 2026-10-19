@@ -1,6 +1,11 @@
-/* Shared atmosphere: the supplied reference's violet corners and black center. */
+/* Shared palette. One soft, edge-lit mist field behind the existing content. */
 :root {
-  --site-atmosphere: url('/theme/purple-diffusion.webp');
+  --diffuse-fog:
+    radial-gradient(ellipse at -5% 72%, #6b3da54d, #6b3da51c 34%, transparent 67%),
+    radial-gradient(ellipse at 104% 25%, #5c51b84d, #5c51b81a 34%, transparent 67%),
+    radial-gradient(ellipse at 108% 55%, #b396d62b, transparent 57%),
+    radial-gradient(ellipse at 72% 112%, #7149ab33, transparent 61%),
+    radial-gradient(ellipse at 22% -18%, #6558b326, transparent 61%);
   --surface: #050407;
   --surface-raised: #1c1823;
   --surface-tinted: #30243e;
@@ -21,9 +26,42 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: #030305 var(--site-atmosphere) center / cover no-repeat;
-  filter: saturate(.82) brightness(.76);
+  background-color: var(--surface);
+  background-image: var(--diffuse-fog);
 }
+.edition { position: relative; isolation: isolate; }
+.cinematic-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  contain: strict;
+  background: #050407;
+}
+.cinematic-atmosphere::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--diffuse-fog);
+  opacity: 1;
+  transition: opacity 2.8s;
+}
+.cinematic-atmosphere[data-ready=true]::before { opacity: 0; }
+.cinematic-atmosphere canvas,
+.atmosphere-shade { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.cinematic-atmosphere canvas { display: block; opacity: 0; }
+.cinematic-atmosphere[data-ready=true] canvas {
+  animation: atmosphere-arrive 2.8s cubic-bezier(.2,.65,.3,1) both;
+  animation-delay: var(--atmosphere-delay, 0s);
+}
+.cinematic-atmosphere[data-running=false] canvas { animation-play-state: paused; }
+.atmosphere-shade {
+  /* Keep a deep, still center while the blurred margins breathe around it. */
+  background: radial-gradient(ellipse 48% 76% at 50% 46%, #050407ad 0%, #05040799 36%, #05040752 66%, transparent 100%),
+    linear-gradient(180deg, #05040766, transparent 28%, transparent 78%, #05040726);
+}
+@keyframes atmosphere-arrive { from { opacity: 0; } to { opacity: 1; } }
 .edition,
 .suspension-hero,
 .portfolio-library,
@@ -48,9 +86,8 @@ body::before {
 .suspension-heading > a { color: var(--text-secondary); }
 .edition .suspension-heading > a:hover { color: var(--accent-hover); }
 .edition .suspension-hero :is(button, a):focus-visible { outline-color: var(--accent); }
-.suspension-rig { opacity: .82; filter: brightness(1.7); }
 
-/* Keep the existing light card palette; only its material transmits light. */
+/* Original iridescent backs with the selected cold-white frosted fronts. */
 .suspended-face {
   background-color: rgb(241 239 243 / .9);
   border-color: rgb(255 255 255 / .55);
@@ -58,7 +95,26 @@ body::before {
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 14px 32px -28px #0009;
 }
+.suspended-front {
+  color: #252733;
+  background-color: rgb(246 248 253 / .9);
+  border-color: rgb(255 255 255 / .74);
+  backdrop-filter: blur(22px) saturate(.65);
+  -webkit-backdrop-filter: blur(22px) saturate(.65);
+  box-shadow: inset 0 1px 0 #ffffffe0, inset 1px 0 0 #ffffff70, inset -1px -1px 0 #ffffff4d, 0 20px 38px -26px #000b;
+  isolation: isolate;
+}
+.suspended-meta,
+.suspended-caption > span,
+.suspended-footer { color: #535869; }
+.suspended-footer { border-color: rgb(255 255 255 / .46); }
+.suspended-round {
+  color: #34364b;
+  background: rgb(229 231 244 / .8);
+  box-shadow: inset 0 1px 0 #ffffffa6;
+}
 .suspended-back { background-color: transparent; background-image: none; isolation: isolate; }
+.suspended-front::before,
 .suspended-back::before {
   content: '';
   position: absolute;
@@ -66,14 +122,15 @@ body::before {
   z-index: -1;
   border-radius: inherit;
   pointer-events: none;
-  background: url('/home/card-sheen.png') center / auto 160% no-repeat;
-  background-position: inherit;
-  opacity: .9;
+  background: url('/home/card-sheen.png') var(--sheen-x, 50%) var(--sheen-y, 50%) / auto 175% no-repeat;
+  opacity: .24;
 }
+.suspended-back::before { opacity: .9; }
 
 /* Both modal and direct-link details retain the same violet atmosphere. */
 .work-dialog {
-  background: #050407 var(--site-atmosphere) center / cover no-repeat;
+  background-color: var(--surface);
+  background-image: var(--diffuse-fog);
   border-color: var(--line-strong);
 }
 .work-dialog > .detail-inner { background: rgb(5 4 9 / .52); }
@@ -81,12 +138,13 @@ body::before {
 .detail-page > .detail-inner { background: rgb(5 4 9 / .2); }
 .player-shell, .moment-frame { background: #09070f; }
 
-@media (max-width: 639px) {
-  /* A color field has no photographic geometry; keep its glow at both corners. */
-  body::before { background-size: 100% 100%; }
+@media (prefers-reduced-motion: reduce) {
+  .cinematic-atmosphere[data-ready=true] canvas { animation: none; opacity: 1; }
+  .cinematic-atmosphere::before { transition: none; }
 }
 @supports not (backdrop-filter: blur(1px)) {
   .suspended-face { background-color: rgb(241 239 243 / .96); }
+  .suspended-front { background-color: rgb(246 248 253 / .96); }
   .suspended-back { background-color: transparent; }
   .suspended-back::before { opacity: .96; }
 }

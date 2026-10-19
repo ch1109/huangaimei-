@@ -1,0 +1,77 @@
+{
+  "attachments": [
+    {
+      "dx": 0,
+      "dy": 0,
+      "id": "W01"
+    },
+    {
+      "dx": 0,
+      "dy": 0,
+      "id": "W03"
+    },
+    {
+      "dx": 0,
+      "dy": 0,
+      "id": "W11"
+    },
+    {
+      "dx": 0,
+      "dy": 0,
+      "id": "W15"
+    }
+  ],
+  "cards": [
+    {
+      "box": {
+        "height": 439.984375,
+        "width": 316.796875,
+        "x": 259.09375,
+        "y": 431.46875
+      },
+      "flipped": false,
+      "id": "W01",
+      "phase": "idle"
+    },
+    {
+      "box": {
+        "height": 439.984375,
+        "width": 316.796875,
+        "x": 619.09375,
+        "y": 491.9375
+      },
+      "flipped": false,
+      "id": "W03",
+      "phase": "idle"
+    },
+    {
+      "box": {
+        "height": 439.984375,
+        "width": 316.796875,
+        "x": 979.09375,
+        "y": 471.0625
+      },
+      "flipped": false,
+      "id": "W11",
+      "phase": "idle"
+    },
+    {
+      "box": {
+        "height": 439.984375,
+        "width": 316.796875,
+        "x": 1339.09375,
+        "y": 502.03125
+      },
+      "flipped": false,
+      "id": "W15",
+      "phase": "idle"
+    }
+  ],
+  "overflow": false,
+  "reduced": false,
+  "viewport": {
+    "dpr": 1,
+    "height": 1244,
+    "width": 1930
+  }
+}

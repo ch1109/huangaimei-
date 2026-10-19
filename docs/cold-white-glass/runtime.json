@@ -1,0 +1,82 @@
+{
+  "cards": [
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "bounds": {
+        "height": 427.226318359375,
+        "width": 307.6060791015625,
+        "x": 82.39226531982422,
+        "y": 409.2149658203125
+      },
+      "filter": "blur(22px) saturate(0.65)",
+      "id": "hero-film",
+      "imageOpacity": "1",
+      "opacity": "1",
+      "scrollWidth": 306,
+      "secondary": "rgb(83, 88, 105)",
+      "sheen": "0.12",
+      "text": "rgb(37, 39, 51)",
+      "width": 306
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "bounds": {
+        "height": 427.226318359375,
+        "width": 307.6060791015625,
+        "x": 431.9078979492187,
+        "y": 467.9337158203125
+      },
+      "filter": "blur(22px) saturate(0.65)",
+      "id": "hero-film-W03",
+      "imageOpacity": "1",
+      "opacity": "1",
+      "scrollWidth": 306,
+      "secondary": "rgb(83, 88, 105)",
+      "sheen": "0.12",
+      "text": "rgb(37, 39, 51)",
+      "width": 306
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "bounds": {
+        "height": 427.226318359375,
+        "width": 307.60601806640625,
+        "x": 781.4391479492188,
+        "y": 447.6680908203125
+      },
+      "filter": "blur(22px) saturate(0.65)",
+      "id": "hero-film-W11",
+      "imageOpacity": "1",
+      "opacity": "1",
+      "scrollWidth": 306,
+      "secondary": "rgb(83, 88, 105)",
+      "sheen": "0.12",
+      "text": "rgb(37, 39, 51)",
+      "width": 306
+    },
+    {
+      "background": "rgba(246, 248, 253, 0.86)",
+      "bounds": {
+        "height": 427.226318359375,
+        "width": 307.6060791015625,
+        "x": 1130.9703369140625,
+        "y": 477.7149658203125
+      },
+      "filter": "blur(22px) saturate(0.65)",
+      "id": "hero-film-W15",
+      "imageOpacity": "1",
+      "opacity": "1",
+      "scrollWidth": 306,
+      "secondary": "rgb(83, 88, 105)",
+      "sheen": "0.12",
+      "text": "rgb(37, 39, 51)",
+      "width": 306
+    }
+  ],
+  "pageWidth": 1521,
+  "viewport": {
+    "dpr": 1,
+    "height": 1024,
+    "width": 1536
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "posters": [
+    {
+      "id": "work-W01",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W02",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W03",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W04",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W05",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W06",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W07",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W09",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W08",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W10",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W11",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W12",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W13",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W14",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W15",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W16",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W17",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W19",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W18",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    },
+    {
+      "id": "work-W20",
+      "imageRadius": "12px",
+      "overflow": "hidden",
+      "radius": "12px"
+    }
+  ],
+  "radius": "12px",
+  "surfaces": [
+    {
+      "className": "suspended-face suspended-front",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-picture picture-W11",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-back",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-watch",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-front",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-picture picture-W01",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-back",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-watch",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-front",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-picture picture-W15",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-back",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-watch",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-front",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-picture picture-W18",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-face suspended-back",
+      "radius": "12px"
+    },
+    {
+      "className": "suspended-watch",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    },
+    {
+      "className": "",
+      "radius": "12px"
+    }
+  ],
+  "viewport": [
+    1440,
+    1000
+  ]
+}

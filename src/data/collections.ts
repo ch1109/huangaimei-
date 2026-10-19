@@ -18,7 +18,7 @@ export const portfolioCollections = [
   {
     id: 'custom-templates', projectId: 'templates', title: '保司定制视频模板', english: 'CUSTOM TEMPLATES',
     anchor: 'FBgrdi7NLo06ivx9mpccnMC7nLc',
-    introduction: ['为泰康、中意人寿制作的定制视频模板，内容包括产品介绍、旅居和品牌宣传。'],
+    introduction: ['为泰康、中意人寿制作的定制口播模板，内容涵盖年金险与养老规划、养老社区与医养服务、资管实力及股东背景解读。'],
     responsibilities: ['视频剪辑', '标题与贴图设计', '字幕排版', '整体视觉包装'],
     note: 'AI 示例人物由公司提供，我负责剪辑与视觉包装。', workIds: ['W03', 'W04', 'W05', 'W06'],
   },

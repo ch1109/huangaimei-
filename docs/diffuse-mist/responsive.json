@@ -1,0 +1,32 @@
+[
+  {
+    "buffer": [
+      440,
+      484
+    ],
+    "fieldRunning": "true",
+    "pageWidth": 753,
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "buffer": [
+      254,
+      549
+    ],
+    "fieldRunning": "true",
+    "pageWidth": 375,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "buffer": [
+      208,
+      549
+    ],
+    "fieldRunning": "true",
+    "pageWidth": 305,
+    "scrollWidth": 305,
+    "width": 320
+  }
+]

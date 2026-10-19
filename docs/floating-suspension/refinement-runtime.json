@@ -1,0 +1,124 @@
+{
+  "desktop": {
+    "dropWidth": "1.25px",
+    "headingGap": 45.717562499999985,
+    "links": [
+      {
+        "anchorError": 0.000030517578125,
+        "angle": -0.21998989616232276,
+        "curveError": 3.570644848327528e-8,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.258003158376813,
+        "curveError": 2.9162953843876207e-8,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0.00006103515625,
+        "angle": -0.14329458385469357,
+        "curveError": 4.8605011923734266e-8,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.11255649325872064,
+        "curveError": 4.219854726230184e-8,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      }
+    ],
+    "mainStroke": "url(\"#_r_6_\")",
+    "mainWidth": "2.2px",
+    "mask": "url(#_r_4_)",
+    "overflow": false,
+    "stage": {
+      "height": 600.8125,
+      "width": 1309.796875,
+      "x": 57.59375,
+      "y": 314.03125
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 1000,
+      "width": 1440
+    }
+  },
+  "mobile": {
+    "dropWidth": "1.25px",
+    "headingGap": 44.39999999999998,
+    "links": [
+      {
+        "anchorError": 0,
+        "angle": 0.2589766035919566,
+        "curveError": 1.39975343146044e-7,
+        "duration": "13.7s",
+        "id": "W01",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.13704535184343702,
+        "curveError": 1.3972918647015816e-7,
+        "duration": "17.3s",
+        "id": "W03",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": -0.07552446354786878,
+        "curveError": 1.3972918617179586e-7,
+        "duration": "15.1s",
+        "id": "W11",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      },
+      {
+        "anchorError": 0,
+        "angle": 0.13812823908044747,
+        "curveError": 1.399753429226659e-7,
+        "duration": "19.7s",
+        "id": "W15",
+        "nodeColor": "rgb(192, 176, 210)",
+        "nodeOpacity": "0.88",
+        "playState": "running"
+      }
+    ],
+    "mainStroke": "url(\"#_r_6_\")",
+    "mainWidth": "2.2px",
+    "mask": "url(#_r_4_)",
+    "overflow": false,
+    "stage": {
+      "height": 550.453125,
+      "width": 1200,
+      "x": 12,
+      "y": 241.875
+    },
+    "viewport": {
+      "dpr": 1,
+      "height": 844,
+      "width": 390
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "height": 1244,
+  "overflow": false,
+  "scrollY": 0,
+  "sections": [
+    {
+      "class": "suspension-heading page-width",
+      "height": 156.03125,
+      "width": 1328,
+      "x": 293.5,
+      "y": 136
+    },
+    {
+      "class": "suspension-stage",
+      "height": 660.546875,
+      "width": 1440,
+      "x": 237.5,
+      "y": 310.03125
+    },
+    {
+      "class": "suspended-film suspended-film-0",
+      "height": 439.984375,
+      "width": 316.796875,
+      "x": 259.09375,
+      "y": 419.46875
+    },
+    {
+      "class": "suspended-film suspended-film-1",
+      "height": 439.984375,
+      "width": 316.796875,
+      "x": 619.09375,
+      "y": 479.9375
+    },
+    {
+      "class": "suspended-film suspended-film-2",
+      "height": 439.984375,
+      "width": 316.796875,
+      "x": 979.09375,
+      "y": 459.0625
+    },
+    {
+      "class": "suspended-film suspended-film-3",
+      "height": 439.984375,
+      "width": 316.796875,
+      "x": 1339.09375,
+      "y": 490.03125
+    },
+    {
+      "class": "library-metrics",
+      "height": 178.390625,
+      "width": 1240,
+      "x": 337.5,
+      "y": 1026.578125
+    }
+  ],
+  "width": 1930
+}

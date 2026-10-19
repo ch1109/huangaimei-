@@ -1,0 +1,27 @@
+{
+  "cards": [
+    {
+      "flipped": false,
+      "id": "W01",
+      "phase": "idle"
+    },
+    {
+      "flipped": false,
+      "id": "W03",
+      "phase": "idle"
+    },
+    {
+      "flipped": false,
+      "id": "W11",
+      "phase": "idle"
+    },
+    {
+      "flipped": false,
+      "id": "W15",
+      "phase": "idle"
+    }
+  ],
+  "focus": "hero-film-W11",
+  "overflow": false,
+  "path": "/"
+}

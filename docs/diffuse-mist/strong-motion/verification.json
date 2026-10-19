@@ -1,0 +1,35 @@
+{
+  "frames": 21,
+  "seconds": 8.004,
+  "samples": [
+    {
+      "seconds": 2.001,
+      "mean_rgb_change_out_of_255": {
+        "left": 14.61,
+        "right": 18.379,
+        "empty_center": 0.895
+      }
+    },
+    {
+      "seconds": 4.0,
+      "mean_rgb_change_out_of_255": {
+        "left": 24.725,
+        "right": 13.95,
+        "empty_center": 0.997
+      }
+    },
+    {
+      "seconds": 8.004,
+      "mean_rgb_change_out_of_255": {
+        "left": 20.778,
+        "right": 11.857,
+        "empty_center": 1.001
+      }
+    }
+  ],
+  "last_center_rgb": [
+    5.83,
+    4.14,
+    8.59
+  ]
+}
