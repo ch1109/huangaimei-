@@ -1,9 +1,9 @@
 // Project groups follow Feishu; display copy is edited for the portfolio.
 export const portfolioProjects = [
-  { id: 'official', number: '01', title: '公司官方账号', subtitle: '真人口播拍摄与剪辑', english: 'SHOOT & EDIT', label: '口播视频' },
-  { id: 'templates', number: '02', title: '加保科技', subtitle: '保司定制模板与小程序通用模板', english: 'COMMERCIAL TEMPLATES', label: '视频模板' },
-  { id: 'yifan', number: '03', title: '艺梵公司', subtitle: '艺术内容与人物故事剪辑', english: 'ART & HUMAN STORIES', label: '艺术与故事' },
-  { id: 'practice', number: '04', title: '个人创作练习', subtitle: '广告、文旅与 AI 视频剪辑', english: 'PERSONAL PRACTICE', label: '个人练习' },
+  { id: 'official', number: '01', title: '公司官方账号', subtitle: '真人口播拍摄与剪辑', english: 'SHOOT & EDIT', label: 'IP拍摄剪辑' },
+  { id: 'templates', number: '02', title: '加保科技', subtitle: '保司定制模板与小程序通用模板', english: 'COMMERCIAL TEMPLATES', label: '保司定制与通用模板视频剪辑' },
+  { id: 'yifan', number: '03', title: '艺梵公司', subtitle: '艺术内容与人物故事剪辑', english: 'ART & HUMAN STORIES', label: '艺术内容与人物故事剪辑' },
+  { id: 'practice', number: '04', title: '个人创作练习', subtitle: '广告、文旅与 AI 视频剪辑', english: 'PERSONAL PRACTICE', label: '个人创作练习' },
 ] as const;
 export type ProjectId = typeof portfolioProjects[number]['id'];
 

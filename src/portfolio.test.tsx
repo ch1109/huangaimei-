@@ -56,7 +56,8 @@ describe('飞书分类与完整项目简介', () => {
   });
   it('开场使用原片，作品区保留封面、完整标题、职责和四部个人练习简介', () => {
     renderApp();
-    expect(document.querySelector<HTMLImageElement>('#hero-film img')?.getAttribute('src')).toBe('/media/W11.webp');
+    expect(document.querySelector<HTMLImageElement>('#hero-film img')?.getAttribute('src')).toBe('/home/W11-first-frame.webp');
+    expect(document.querySelector<HTMLImageElement>('#hero-film-W15 img')?.getAttribute('src')).toBe('/home/W15-first-frame.webp');
     expect(document.querySelectorAll('.collection-films .designed-cover')).toHaveLength(20);
     expect(document.querySelectorAll('.collection-film .work-role')).toHaveLength(20);
     expect(document.querySelectorAll('.collection-film .practice-label')).toHaveLength(4);
@@ -70,11 +71,12 @@ describe('飞书分类与完整项目简介', () => {
   it('按原文四大章节筛选，保留对应项目简介及全部相关作品', () => {
     renderApp();
     const group = screen.getByRole('group', { name: '作品分类' });
-    fireEvent.click(within(group).getByRole('button', { name: '视频模板' }));
+    expect(within(group).getAllByRole('button').map(button => button.textContent)).toEqual(['全部作品', ...portfolioProjects.map(project => project.label)]);
+    fireEvent.click(within(group).getByRole('button', { name: '保司定制与通用模板视频剪辑' }));
     expect(document.querySelectorAll('.collection-film')).toHaveLength(8);
     expect(document.querySelectorAll('.collection-module')).toHaveLength(2);
     expect(document.querySelector('#work-W03')).not.toBeNull();
-    fireEvent.click(within(group).getByRole('button', { name: '个人练习' }));
+    fireEvent.click(within(group).getByRole('button', { name: '个人创作练习' }));
     expect(document.querySelectorAll('.collection-film')).toHaveLength(4);
     expect(document.querySelector('#work-W18')).not.toBeNull();
     fireEvent.click(within(group).getByRole('button', { name: '全部作品' }));
@@ -104,14 +106,17 @@ describe('浏览与详情', () => {
     fireEvent.click(screen.getByRole('button', { name: '切换章节' }));
     expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
   });
-  it('首屏点击即请求播放，关闭后恢复首屏焦点', async () => {
+  it('首屏先翻面再播放，关闭后恢复播放入口焦点', async () => {
     renderApp();
     const trigger = document.getElementById('hero-film')!;
     fireEvent.click(trigger);
+    expect(HTMLMediaElement.prototype.play).not.toHaveBeenCalled();
+    const play = within(screen.getByRole('region', { name: '精选视频作品' })).getByRole('button', { name: '播放花舞瞬间' });
+    fireEvent.click(play);
     await waitFor(() => expect(HTMLMediaElement.prototype.play).toHaveBeenCalled());
     expect(screen.getByRole('dialog').textContent).toContain('花舞瞬间');
     fireEvent.click(screen.getByRole('button', { name: '关闭作品详情' }));
-    await waitFor(() => expect(document.activeElement).toBe(trigger));
+    await waitFor(() => expect(document.activeElement).toBe(play));
     expect(HTMLMediaElement.prototype.pause).toHaveBeenCalled();
   });
   it('精选作品的拆解集中在详情中，阅读入口不会自动播放', () => {
@@ -124,24 +129,25 @@ describe('浏览与详情', () => {
   });
   it('开场按艺术模块继续播放，关闭后保留作品区分类', async () => {
     renderApp();
-    fireEvent.click(screen.getByRole('button', { name: '个人练习' }));
+    fireEvent.click(screen.getByRole('button', { name: '个人创作练习' }));
     fireEvent.click(document.getElementById('hero-film')!);
+    fireEvent.click(screen.getByRole('button', { name: '播放花舞瞬间' }));
     expect(screen.getByRole('button', { name: /下一件作品/ }).textContent).toContain('神奇的蛋糕');
     fireEvent.click(screen.getByRole('button', { name: '关闭作品详情' }));
     await waitFor(() => expect(document.querySelector('dialog')).toBeNull());
     expect(document.querySelectorAll('.collection-film')).toHaveLength(4);
-    expect(screen.getByRole('button', { name: '个人练习' }).getAttribute('aria-pressed')).toBe('true');
+    expect(screen.getByRole('button', { name: '个人创作练习' }).getAttribute('aria-pressed')).toBe('true');
   });
   it('索引分类后开关详情保留分类及触发焦点', async () => {
     renderApp();
-    fireEvent.click(screen.getByRole('button', { name: '个人练习' }));
+    fireEvent.click(screen.getByRole('button', { name: '个人创作练习' }));
     const trigger = screen.getByRole('button', { name: '春日与蝴蝶' });
     fireEvent.click(trigger);
     expect(screen.getByRole('dialog').textContent).toContain('春日与蝴蝶');
     expect(document.querySelector('.player-shell video')).toBeNull();
     fireEvent.click(screen.getByRole('button', { name: '关闭作品详情' }));
     await waitFor(() => expect(document.querySelector('dialog')).toBeNull());
-    expect(screen.getByRole('button', { name: '个人练习' }).getAttribute('aria-pressed')).toBe('true');
+    expect(screen.getByRole('button', { name: '个人创作练习' }).getAttribute('aria-pressed')).toBe('true');
     expect(document.querySelectorAll('.collection-film')).toHaveLength(4);
     await waitFor(() => expect(document.activeElement).toBe(trigger));
   });

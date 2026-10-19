@@ -10,7 +10,7 @@ import { revealInView } from './components/motion-presets';
 
 const resume = '/resume/huang-aimei.pdf';
 const email = '825019917@qq.com';
-const chapters = [['works', '作品分类'], ['about', '关于我'], ['contact', '联系我']];
+const chapters = [['works', '作品'], ['about', '关于'], ['contact', '联系']];
 
 export function Home({ onOpen, category, setCategory }: { onOpen: OpenWork; category: Category; setCategory: (category: Category) => void; previewsPaused?: boolean }) {
   const [copied, setCopied] = useState<'idle' | 'copied' | 'failed'>('idle');
@@ -45,10 +45,10 @@ export function Home({ onOpen, category, setCategory }: { onOpen: OpenWork; cate
 
   return <div className="edition">
     <a className="skip-link" href="#works">跳到作品</a>
-    <div className="edition-header-shell">
+    <div className={`edition-header-shell${section === 'selected' ? ' is-intro' : ''}`}>
       <header className="edition-header page-width">
-        <a className="edition-brand" href="/#selected" aria-label="黄爱美，返回首页">aimei<span className="brand-period">.</span><span className="edition-brand-cn">黄爱美 / 视频拍摄与剪辑师</span></a>
-        <nav aria-label="主导航">{chapters.map(([id, label], index) => <a href={`#${id}`} key={id} className={section === id ? 'is-current' : ''} aria-current={section === id ? 'location' : undefined}><span className="mono">0{index + 1}</span>{label}</a>)}</nav>
+        <a className="edition-brand" href="/#selected" aria-label="黄爱美，返回首页">aimei<span className="brand-period">.</span></a>
+        <nav aria-label="主导航">{chapters.map(([id, label]) => <a href={`#${id}`} key={id} className={section === id ? 'is-current' : ''} aria-current={section === id ? 'location' : undefined}>{label}</a>)}</nav>
       </header>
       <ScrollProgress />
     </div>
@@ -59,7 +59,7 @@ export function Home({ onOpen, category, setCategory }: { onOpen: OpenWork; cate
         <div className="page-width">
           <div className="chapter-rule"><span className="mono">02 / ABOUT ME</span><span>关于我</span></div>
           <div className="about-editorial">
-            <motion.div className="about-image" {...revealInView(reduced)}><img src="/profile/huang-aimei-portrait-960.webp" srcSet="/profile/huang-aimei-portrait-480.webp 480w, /profile/huang-aimei-portrait-960.webp 960w, /profile/huang-aimei-portrait-1440.webp 1440w" sizes="(max-width:639px) 70vw, (max-width:899px) 34vw, 425px" width="2160" height="3840" alt="黄爱美的个人照片" loading="lazy" decoding="async" /><span className="mono">AIMEI HUANG / 黄爱美</span></motion.div>
+            <motion.div className="about-image" {...revealInView(reduced)}><img src="/profile/huang-aimei-mickey-960.webp" srcSet="/profile/huang-aimei-mickey-480.webp 480w, /profile/huang-aimei-mickey-960.webp 960w, /profile/huang-aimei-mickey-1440.webp 1440w" sizes="(max-width:639px) 70vw, (max-width:899px) 34vw, 425px" width="3024" height="4032" style={{ objectPosition: '50% 46%' }} alt="黄爱美与米奇玩偶的合影" loading="lazy" decoding="async" /><span className="mono">AIMEI HUANG / 黄爱美</span></motion.div>
             <motion.div className="about-story" {...revealInView(reduced, .1)}>
               <span className="small-label">视频拍摄与剪辑师</span>
               <h2>你好，<br />我是<span>黄爱美。</span></h2>

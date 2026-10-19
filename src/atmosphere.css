@@ -1,0 +1,92 @@
+/* Shared atmosphere: the supplied reference's violet corners and black center. */
+:root {
+  --site-atmosphere: url('/theme/purple-diffusion.webp');
+  --surface: #050407;
+  --surface-raised: #1c1823;
+  --surface-tinted: #30243e;
+  --text: #f6f2fb;
+  --text-secondary: #ded5ec;
+  --text-muted: #d5c9e0;
+  --accent: #dfc8fa;
+  --accent-hover: #f0e2ff;
+  --accent-ink: #21162e;
+  --line: #d9c1f52b;
+  --line-strong: #cdb5e65c;
+  background: var(--surface);
+}
+body { position: relative; isolation: isolate; background: transparent; }
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: #030305 var(--site-atmosphere) center / cover no-repeat;
+  filter: saturate(.82) brightness(.76);
+}
+.edition,
+.suspension-hero,
+.portfolio-library,
+.edition-about,
+.edition-contact,
+.detail-page { background: transparent; color: var(--text); }
+.detail-page::before { background: transparent; }
+
+/* The sticky navigation uses the same treatment at every chapter. */
+.edition-header-shell,
+.edition-header-shell.is-intro { background: #06040b9c; backdrop-filter: blur(16px); }
+.edition-header-shell .edition-header { border-color: var(--line); }
+.edition-header-shell .edition-brand { color: var(--text); }
+.edition-header-shell .edition-brand:hover { color: var(--accent-hover); }
+.edition-header-shell .brand-period { color: var(--accent); }
+.edition-header-shell .edition-header nav a { color: var(--text-secondary); }
+.edition-header-shell .edition-header nav a:hover,
+.edition-header-shell .edition-header nav a.is-current { color: var(--text); }
+.edition-header-shell .scroll-progress { background: var(--accent); }
+.suspension-heading p { color: var(--text-secondary); }
+.suspension-heading h1 span { color: var(--accent); }
+.suspension-heading > a { color: var(--text-secondary); }
+.edition .suspension-heading > a:hover { color: var(--accent-hover); }
+.edition .suspension-hero :is(button, a):focus-visible { outline-color: var(--accent); }
+.suspension-rig { opacity: .82; filter: brightness(1.7); }
+
+/* Keep the existing light card palette; only its material transmits light. */
+.suspended-face {
+  background-color: rgb(241 239 243 / .9);
+  border-color: rgb(255 255 255 / .55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 14px 32px -28px #0009;
+}
+.suspended-back { background-color: transparent; background-image: none; isolation: isolate; }
+.suspended-back::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  background: url('/home/card-sheen.png') center / auto 160% no-repeat;
+  background-position: inherit;
+  opacity: .9;
+}
+
+/* Both modal and direct-link details retain the same violet atmosphere. */
+.work-dialog {
+  background: #050407 var(--site-atmosphere) center / cover no-repeat;
+  border-color: var(--line-strong);
+}
+.work-dialog > .detail-inner { background: rgb(5 4 9 / .52); }
+.work-dialog::backdrop { background: #03020699; backdrop-filter: blur(10px); }
+.detail-page > .detail-inner { background: rgb(5 4 9 / .2); }
+.player-shell, .moment-frame { background: #09070f; }
+
+@media (max-width: 639px) {
+  /* A color field has no photographic geometry; keep its glow at both corners. */
+  body::before { background-size: 100% 100%; }
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .suspended-face { background-color: rgb(241 239 243 / .96); }
+  .suspended-back { background-color: transparent; }
+  .suspended-back::before { opacity: .96; }
+}

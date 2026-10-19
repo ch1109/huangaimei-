@@ -1,0 +1,182 @@
+[
+  {
+    "bodyWidth": 1425,
+    "gutter": "clamp(24px, 4vw, 64px)",
+    "labels": [
+      {
+        "scroll": 256,
+        "text": "全部作品",
+        "width": 256
+      },
+      {
+        "scroll": 256,
+        "text": "公司官方账号",
+        "width": 256
+      },
+      {
+        "scroll": 256,
+        "text": "加保科技",
+        "width": 256
+      },
+      {
+        "scroll": 256,
+        "text": "艺梵公司",
+        "width": 256
+      },
+      {
+        "scroll": 256,
+        "text": "个人创作练习",
+        "width": 256
+      }
+    ],
+    "overflow": [],
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "bodyWidth": 1009,
+    "gutter": "clamp(24px, 4vw, 64px)",
+    "labels": [
+      {
+        "scroll": 179,
+        "text": "全部作品",
+        "width": 179
+      },
+      {
+        "scroll": 179,
+        "text": "公司官方账号",
+        "width": 179
+      },
+      {
+        "scroll": 179,
+        "text": "加保科技",
+        "width": 179
+      },
+      {
+        "scroll": 179,
+        "text": "艺梵公司",
+        "width": 179
+      },
+      {
+        "scroll": 179,
+        "text": "个人创作练习",
+        "width": 179
+      }
+    ],
+    "overflow": [],
+    "viewport": [
+      1024,
+      900
+    ]
+  },
+  {
+    "bodyWidth": 753,
+    "gutter": "clamp(24px, 4vw, 64px)",
+    "labels": [
+      {
+        "scroll": 132,
+        "text": "全部作品",
+        "width": 132
+      },
+      {
+        "scroll": 132,
+        "text": "公司官方账号",
+        "width": 132
+      },
+      {
+        "scroll": 132,
+        "text": "加保科技",
+        "width": 132
+      },
+      {
+        "scroll": 132,
+        "text": "艺梵公司",
+        "width": 132
+      },
+      {
+        "scroll": 132,
+        "text": "个人创作练习",
+        "width": 132
+      }
+    ],
+    "overflow": [],
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "bodyWidth": 375,
+    "gutter": "clamp(24px, 4vw, 64px)",
+    "labels": [
+      {
+        "scroll": 303,
+        "text": "全部作品",
+        "width": 303
+      },
+      {
+        "scroll": 148,
+        "text": "公司官方账号",
+        "width": 148
+      },
+      {
+        "scroll": 148,
+        "text": "加保科技",
+        "width": 148
+      },
+      {
+        "scroll": 148,
+        "text": "艺梵公司",
+        "width": 148
+      },
+      {
+        "scroll": 148,
+        "text": "个人创作练习",
+        "width": 148
+      }
+    ],
+    "overflow": [],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "bodyWidth": 305,
+    "gutter": "clamp(24px, 4vw, 64px)",
+    "labels": [
+      {
+        "scroll": 233,
+        "text": "全部作品",
+        "width": 233
+      },
+      {
+        "scroll": 113,
+        "text": "公司官方账号",
+        "width": 113
+      },
+      {
+        "scroll": 113,
+        "text": "加保科技",
+        "width": 113
+      },
+      {
+        "scroll": 113,
+        "text": "艺梵公司",
+        "width": 113
+      },
+      {
+        "scroll": 113,
+        "text": "个人创作练习",
+        "width": 113
+      }
+    ],
+    "overflow": [],
+    "viewport": [
+      320,
+      780
+    ]
+  }
+]

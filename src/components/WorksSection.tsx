@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from 'motion/react';
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { filterWorks, works, type Category } from '../data/works';
 import { portfolioProjects, portfolioCollections } from '../data/collections';
 import type { OpenWork } from './HangingCard';
@@ -13,6 +13,7 @@ const workMetrics = [
   { value: '90+', label: '艺术类混剪视频' },
   { value: '10条', label: '点赞或转发过万的作品' },
 ] as const;
+const categoryFilters = [{ id: '全部', label: '全部作品' }, ...portfolioProjects] as const;
 
 export function archiveWorks(category: Category) { return filterWorks(category); }
 
@@ -20,17 +21,20 @@ export function WorksSection({ onOpen, category, setCategory }: { onOpen: OpenWo
   const reduced = useReducedMotion();
   const list = filterWorks(category);
   const visibleIds = new Set(list.map(work => work.id));
-  const activeFilter = (value: Category) => category === value && <motion.span className="filter-active" aria-hidden="true" layoutId={reduced ? undefined : 'active-category'} transition={{ type: 'spring', stiffness: 420, damping: 36, mass: .6 }} />;
   return <section id="works" className="portfolio-library" aria-label="视频作品">
     <span id="archive" className="anchor-alias" /><span id="cases" className="anchor-alias" />
     <div className="page-width">
       <motion.dl className="library-metrics" aria-label="工作数据" {...revealInView(reduced, .06)}>
         {workMetrics.map(metric => <div className="library-metric" key={metric.label}><dt>{metric.label}</dt><dd>{metric.value}</dd></div>)}
       </motion.dl>
-      <LayoutGroup id="portfolio-categories"><div className="collection-filter" role="group" aria-label="作品分类">
-        <button aria-pressed={category === '全部'} onClick={() => setCategory('全部')}><span className="filter-label">{activeFilter('全部')}全部作品</span></button>
-        {portfolioProjects.map(project => <button key={project.id} aria-pressed={category === project.id} onClick={() => setCategory(project.id)}><span className="filter-label">{activeFilter(project.id)}{project.label}</span></button>)}
-      </div></LayoutGroup>
+      <div className="collection-filter" role="group" aria-label="作品分类">
+        {categoryFilters.map(filter => <motion.button key={filter.id} type="button" aria-pressed={category === filter.id}
+          onClick={() => setCategory(filter.id)} whileTap={reduced ? undefined : { scale: .98 }} transition={{ duration: .14 }}>
+          <motion.span className="filter-surface" aria-hidden="true" initial={false}
+            animate={{ opacity: category === filter.id ? 1 : 0 }} transition={{ duration: reduced ? 0 : .22 }} />
+          <span className="filter-label">{filter.label}</span>
+        </motion.button>)}
+      </div>
       <ChapterTransition category={category} reduced={reduced}>{portfolioProjects.map(project => {
         const collections = portfolioCollections.filter(collection => collection.projectId === project.id && collection.workIds.some(id => visibleIds.has(id)));
         if (!collections.length) return null;

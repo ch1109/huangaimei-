@@ -67,7 +67,7 @@ pnpm preview
 - `src/components/CaseStudies.tsx`、`src/data/case-studies.json`：详情页成片拆解；`public/cases`为按记录时间点提取的原片截图。
 - `src/components/WorksSection.tsx`：排除前文4部作品后的16部索引，按三类筛选。
 - `src/Home.tsx`：导航、幕后经历、制作统计、教育与联系。
-- `public/profile`：用户提供的个人照片，当前关于区域照片使用 `huang-aimei-portrait.jpg`。照片保留原貌，页面通过 CSS 控制显示裁切。
+- `public/profile`：用户提供的个人照片，当前关于区域使用用户选定的米奇合影 `huang-aimei-mickey-{480,960,1440}.webp`。照片保留原貌，页面通过 CSS 控制显示裁切。
 - `src/data/works.json`：作品名、分类、职责和制作说明。保持 id/slug 稳定，避免旧分享地址失效。
 - `src/data/media.json`：生成的封面、视频、预览和真实尺寸。
 - `src/data/covers.json`：20张设计封面地址，用于作品索引、详情包装与分享图；重点作品与播放器展示原始成片帧。

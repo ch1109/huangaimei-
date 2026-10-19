@@ -6,4 +6,6 @@ import './edition.css';
 import './collections.css';
 import './obsidian.css';
 import './motion.css';
+import './atmosphere.css';
+import './layout.css';
 createRoot(document.getElementById('root')!).render(<BrowserRouter><App /></BrowserRouter>);

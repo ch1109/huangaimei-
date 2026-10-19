@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>关于我 · 四张照片效果对比</title>
+  </head>
+  <body>
+    <header class="portrait-controls">
+      <div><span class="mono">PORTRAIT STUDY / 01—04</span><h1>「关于我」照片对比</h1></div>
+      <nav aria-label="切换照片">
+        <button type="button" data-photo="1" aria-pressed="true">01 · 米奇合影</button>
+        <button type="button" data-photo="2" aria-pressed="false">02 · 草帽绿植</button>
+        <button type="button" data-photo="3" aria-pressed="false">03 · 浅粉上衣</button>
+        <button type="button" data-photo="4" aria-pressed="false">04 · 白衣树影</button>
+        <button type="button" data-photo="original" aria-pressed="false">原图</button>
+      </nav>
+      <p>本地试放 · 点击切换，同一版式比较</p>
+    </header>
+    <main class="edition">
+      <section class="edition-about portrait-stage" id="portrait-stage" aria-label="照片替换效果">
+        <div class="page-width">
+          <div class="chapter-rule"><span class="mono">02 / ABOUT ME</span><span>关于我</span></div>
+          <div class="about-editorial">
+            <div class="about-image"><img id="preview-portrait" src="/profile/portrait-options/01-mickey.webp" width="3024" height="4032" alt="黄爱美与米奇玩偶的合影" decoding="sync" /><span class="mono">AIMEI HUANG / 黄爱美</span></div>
+            <div class="about-story">
+              <span class="small-label">视频拍摄与剪辑师</span>
+              <h2>你好，<br />我是<span>黄爱美。</span></h2>
+              <p class="about-lead">我毕业于桂林电子科技大学室内设计专业，先后在艺梵和加保科技从事视频剪辑工作。</p>
+              <p class="about-body">做过商业口播、模板视频、艺术短片和人物故事，也会在工作之外尝试文旅、广告和 AI 视频剪辑。</p>
+              <div class="education-line"><span class="mono">2020 — 2024</span><div>桂林电子科技大学<small>艺术与设计学院 · 室内设计</small></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="portrait-verdict page-width" aria-live="polite">
+        <div><span class="mono" id="option-number">OPTION 01</span><h2 id="option-title">米奇合影</h2></div>
+        <p id="option-analysis"></p>
+        <a href="/">返回作品集 ↗</a>
+      </aside>
+      <section class="portrait-overview page-width" aria-labelledby="comparison-title">
+        <div class="portrait-overview-heading"><div><span class="mono">FOUR OPTIONS</span><h2 id="comparison-title">四张放在一起看</h2></div><p>预览沿用网页现有的低饱和处理，仅逐张调整裁切位置。</p></div>
+        <div class="portrait-options">
+          <button type="button" data-photo="1" aria-label="放大查看第1张米奇合影"><img src="/profile/portrait-options/01-mickey.webp" alt="第1张：米奇合影" style="object-position:50% 46%" /><span>01 · 米奇合影</span><small>亲切、活泼，背景细节较多</small></button>
+          <button type="button" data-photo="2" aria-label="放大查看第2张草帽绿植"><img src="/profile/portrait-options/02-garden.webp" alt="第2张：草帽绿植" style="object-position:50% 46%" /><span>02 · 草帽绿植</span><small>自然清新，旅行和生活感较强</small></button>
+          <button type="button" data-photo="3" aria-label="放大查看第3张浅粉上衣"><img src="/profile/portrait-options/03-pink.webp" alt="第3张：浅粉上衣" style="object-position:50% 48%" /><span>03 · 浅粉上衣 <em>推荐</em></span><small>浅粉呼应淡紫，人物和文字更协调</small></button>
+          <button type="button" data-photo="4" aria-label="放大查看第4张白衣树影"><img src="/profile/portrait-options/04-tree.webp" alt="第4张：白衣树影" style="object-position:50% 48%" /><span>04 · 白衣树影</span><small>构图简洁、视线直接，适合自我介绍</small></button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/portrait-preview.ts"></script>
+  </body>
+</html>

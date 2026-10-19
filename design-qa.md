@@ -1,64 +1,55 @@
-# 作品区工作数据：方案一验收
+# 紫黑弥散背景与首帧封面验收
 
-日期：2026-10-18。范围：加入四列简历工作数据，删除用户红框中的右上角作品数量和统计来源说明。
-
-## 视觉依据与证据
-
-- source visual truth path：docs/resume-metrics/user-selected.png（1885 × 846，用户标注）；去除两处内容的目标图为 docs/resume-metrics/revised-reference.png（1880 × 836）。
-- implementation screenshot path：docs/resume-metrics/desktop-final.png（1425 × 990）。
-- viewport：桌面 1440 × 1000 CSS px，devicePixelRatio=1，clientWidth=1425；另验证 768 × 1024、390 × 844、320 × 780。
-- state：/#works，全部作品，4 项工作数据，4 个章节、6 个模块、20 部作品。
-- full-view comparison evidence：docs/resume-metrics/comparison-final.png。实际打开并排对照图检查；源码截图取 (0,104)–(1425,738) 的组件区域，双方保持纵横比归一到 940px 宽。
-- focused region evidence：docs/resume-metrics/header-final.png 为标题、数据、筛选的完整组件裁图；数字和标签已清楚可读，不需要进一步裁切单个数字。
-- 不同像素尺寸通过等比缩放归一；保留既有页面宽度、字体及章节顶部细线。生成图中的烟雾质感不作为新增背景素材。
+日期：2026-10-19。范围：全站参考紫黑背景，保留浅色卡片并增加轻微透底；首页花舞瞬间、夏加尔改用视频第一帧。
 
 ## Findings 与迭代
 
-1. 初版 [P2] 数据说明和筛选文字偏小。证据：comparison-initial.png、desktop-initial.png。修复：桌面标题最高 60px、数据说明最高 18px、筛选 16px；下划线改为文字宽度。复验：comparison-final.png，数字、说明、筛选层级与目标接近，无截断。
-2. 窄屏 [P3] 320px 下最后一个标签留下单字换行。证据：mobile-320.png。修复：均衡换行；mobile-320-final.png 中分为两行完整短语，没有孤立单字或横向溢出。
-3. 最终无未解决的 P0/P1/P2。library-total 节点为 0；作品区没有“数据来自简历工作统计”。分类栏的“全部作品 20”不在删除范围内，正常保留。
+- [P2，已修复] home-initial.png 中原裁切位置截断了封面中文标题。将 W11 的 object-position 调为 center 60%，W15 调为 center 58%。重新捕获 home-final.png，并与用户原图同图比较，中文标题已完整显示。
+- 最终没有未解决的 P0/P1/P2。Finova 图片只提供背景颜色与光线方向，不复制其排版文案。保留浅灰卡片、虹彩背面及悬挂排布是用户明确要求的差异。
+
+## 比较依据
+
+- source visual truth path：docs/purple-diffusion/user-reference.jpg，2532 × 1170。原文件为用户提供的 D:/xwechat_files/wxid_d0cdhx7yr49e22_fee7/temp/RWTemp/2026-10/0ee3bd158eed7664b5b35c203a92dfdb/5e4515caa24727adec573a1e57e1b4b8.jpg。
+- 两张封面依据：同目录 cover-reference-W11.png、cover-reference-W15.png、cover-targets.png。实际素材从 public/media/W11.mp4 与 W15.mp4 解码第一帧，没有取后续画面或生成封面。
+- implementation screenshot path：docs/purple-diffusion/home-final.png。viewport 1440 × 1000 CSS px，devicePixelRatio=1；浏览器截图接口返回可视内容区域 1425 × 990 像素。state：首页顶端、四张正面、静止状态。
+- full-view comparison evidence：comparison-background.png。参考图裁取网站本身 (562,146)–(1968,1025)，排除外框和设备边缘，与真实首页等比缩小并排。比较右上、左下紫色光域和黑色中心，不比较不同产品布局。
+- focused region comparison evidence：comparison-covers.png。用户两张原图与最终两张卡片同图展示。保留近方形画框，中文标题完整；上部 EFFIAN 标识及部分画面边缘因画幅差异受到裁切，这是保留现有布局的结果。
+- 先检查 home-initial.png，修改后重新捕获 home-final.png，再查看上述两个组合对照。旧版卡片验收保存在 previous-design-qa.md。
 
 ## 五项视觉检查
 
-- Fonts and typography：沿用项目的现代无衬线字体，数字雾紫、说明为次级文字；均为可读的真实文字，dt/dd 保留语义。手机数字 38px、标签 12px。
-- Spacing and layout rhythm：桌面四列等宽，三条细分隔线；小于 800px 改为两列两行，每行仅中间保留分隔线。无额外卡片背景或说明占位。
-- Colors and tokens：沿用 #17171B、#C6B2DE、#BDB9C6 与既有细线颜色，未新增渐变或色系。
-- Image quality and asset fidelity：组件是文字与分隔线，不需要新增位图；参考图仅存验收目录。原视频、封面和其他页面素材未替换。
-- Copy and content：300+ 知识科普视频模板、3万+ 模板视频累计跟拍、90+ 艺术类混剪视频、10条 点赞或转发过万的作品。数字和含义沿用用户材料，没有给单支展示视频新增过万标记。
+- Fonts and typography：沿用 Microsoft YaHei UI / Microsoft YaHei / PingFang SC / system-ui 字体栈、字号、字重与换行。正文、导航、焦点采用白色及浅紫；浅色卡片保留深灰字，图片和文字 opacity 为 1。
+- Spacing and layout rhythm：四张卡片的尺寸、位置、间距、圆角和标题结构未改。1440 × 1000 下四张卡片完整可见。390 × 844 使用已有局部横向滚动，body.scrollWidth=375，小于 viewport 390；手机背面 clientHeight=scrollHeight=334，无内容溢出。
+- Colors and tokens：共享固定背景层，黑色中心、右上与左下紫色弥散，CSS saturate(.82) brightness(.76) 控制亮度。导航、作品、关于、联系和详情使用同一色系。卡片底色仍为 rgb(241 239 243)，alpha .9；虹彩材质单独以 .9 透明度绘制。依据背景最亮像素和滤镜近似计算，常用小字对比约 4.8:1 以上，仅为辅助估算，非完整无障碍审计。
+- Image quality and asset fidelity：背景位图 public/theme/purple-diffusion.webp 保留参考的紫色方向与黑色负空间，没有额外图形或文字。首帧为 720 × 1280 WebP。W01、W18 原封面、吊线、虹彩位图与图标组件保留。生成素材与提取命令见 asset-generation.md。
+- Copy and content：没有新增营销语、描述、计数或个人经历；作品标题及负责内容保留原始数据。
 
-## 交互、检查与边界
+## 浏览器证据与检查
 
-- 实际点击“保司与通用模板”显示 8 部作品，恢复“全部作品”显示 20 部；筛选时四项数据保持显示，选中下划线正常。
-- 1440、768、390、320 CSS px 宽均无页面横向溢出，标签和筛选没有容器内溢出。证据：tablet-768.png、mobile-390.png、mobile-320-final.png。
-- 浏览器 error 日志为空，沿用进入视口和减少动态效果设置。
-- 最终生产构建成功，生成 20 个作品分享页面；现有 3 个测试文件、24 项测试通过。未增加静态文案测试。
-- 未发布外部托管，保留现有本地服务和作品区预览。未做真机浏览器测试。
-- 上一轮根目录报告已存 docs/resume-metrics/previous-design-qa.md。
+- home-final.png 为四张正面，card-back.png 为原虹彩背面和播放、详情入口。
+- works.png、about.png、contact.png 展示连续背景及文字。运行时检查全部 section 背景透明，使用同一 body 背景层。
+- detail-modal.png：首页翻面后点击查看详情，详情显示同色背景，关闭返回卡片。detail-direct.png：单独打开 /works/flowers-in-motion，也采用紫黑背景。
+- mobile-front.png：390 × 844 首页，首帧中文标题完整可见。手机翻面后检查高度没有溢出；mobile-back.png 记录翻面过程，不作为静止状态视觉依据。
+- 首页实际图片 src 为 /home/W11-first-frame.webp、/home/W15-first-frame.webp；另两张为 /media/W01.webp、/media/W18.webp，opacity 均为 1。
+- 浏览器 error 日志为空。4 个测试文件、26 项测试通过，生产构建通过并生成 20 个作品分享页面。没有实体手机验证。
 
 ## Implementation Checklist
 
-- [x] 四列数据与下划线筛选
-- [x] 删除红框两处内容
-- [x] 手机与平板两列布局
-- [x] 分类、完整作品数量验证
-- [x] 并排视觉对照、构建、测试
+- [x] 全站背景、导航和两种详情页统一配色。
+- [x] 保留浅色卡片与虹彩背面，仅材质透底。
+- [x] 两张实际首帧替换，调整裁切并对照检查。
+- [x] 桌面、手机、详情、控制台、测试与构建检查。
 
-## 后续调整：移除过渡提示与统计脚注
+final result: passed
 
-按用户本轮三张截图，删除作品区末尾的“ABOUT & EXPERIENCE / 查看我的工作经历”整行，以及经历区“制作数量来自简历工作统计。”脚注。同步删除失效样式、末尾作品模块的底部留白和经历末行的重复分隔线；保留关于章节与工具栏的主分隔线。
+## 首页卡片与留白后续调整
 
-1440 × 1000 桌面实页检查：作品末尾到关于章节细线间距 60px，经历与工具栏间距 50px；390 × 844 手机对应作品衔接间距 36px。两种宽度均无横向溢出，已移除的节点与文案数量为 0，作品仍为 20 部。实际截图：`docs/flow-cleanup/desktop-works-about.png`、`desktop-experience-tools.png`、`mobile-about.png`。字体、配色、照片和作品素材保持原有设置；删除后的区域自然衔接，无额外占位。生产构建及现有 24 项测试通过。
+2026-10-19 用户要求首页吊挂卡片作为主要设计放大，并减少页面之间的留白。移除首页按视口撑高的最小高度，舞台上限提高至 1440px，收紧作品、关于和联系区间距。大屏卡片线性尺寸增加约 22%，卡片至数据区由约 516px 缩至 97px。矮屏与手机分别检查显示范围、翻面内容和整体横向溢出；最终生产构建通过。最新记录及截图见 `docs/spacing-refinement/验收记录.md`。
 
-## 后续调整：作品数据作为主视觉
+## 后续分类与文字边界调整
 
-按用户本轮红框，移除作品区顶部编号、右侧小字、“视频作品”标题与题材说明。保留作品区的可访问名称和全部作品内容，数据直接衔接分类栏。
+2026-10-19 按用户最终指定，分类改为 IP拍摄剪辑、保司定制与通用模板视频剪辑、艺术内容与人物故事剪辑、个人创作练习。桌面分类单行排列；窄屏按整个分类换行，每个标签文字保持单行。统一正文边界、左右留白与长标题换行，调整窄屏数据字号和联系标题。
 
-四项数据放大并整体居中：桌面最大宽 1240px，1440px 视口下中心位置与内容区中心同为 712.5px，数字约 84px、说明 20px；上方与下方到分类细线的留白均约 96px。手机保留两列，数字放大到 52px、说明 14px，并均衡换行。1440、390、320 CSS px 实页检查均无页面或数据单元溢出，红框文字已从作品区移除，20 部作品仍完整。截图：`docs/metrics-focus/desktop.png`、`mobile-390.png`、`mobile-320.png`。构建及现有 24 项测试通过，预览停在作品区。
-
-## 后续调整：精简分类栏
-
-按用户最新截图，删除分类按钮后的作品数量，以及下方重复的“分类 · N 部作品”统计行。名称简化为“全部作品 / 口播视频 / 视频模板 / 艺术与故事 / 个人练习”，不增加替代说明。现有测试仅同步新的分类名称。
-
-桌面实页点击“口播视频”正常显示对应作品，数量徽标和重复统计节点均为 0；390px 手机端没有横向溢出。顶部四项工作数据保留，筛选与选中下划线正常。证据：`docs/filter-copy/desktop.png`、`desktop-filter.png`、`mobile.png`。TypeScript 与生产构建通过，现有 24 项测试通过。
+最终证据与七种屏宽检查见 `docs/content-boundaries/验收记录.md`、`desktop-final.png`、`responsive-final.json`。所有分类均一行、抽检文字横向溢出为 0；模板分类正确显示两个模块八部作品；最新构建及 26 项测试通过，控制台 error 为空。
 
 final result: passed

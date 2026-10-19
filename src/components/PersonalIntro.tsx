@@ -1,40 +1,84 @@
-import { useRef } from 'react';
-import { motion, useReducedMotion, useScroll, useSpring, useTransform } from 'motion/react';
+import { useEffect, useRef, useState } from 'react';
+import { motion, useReducedMotion, useSpring, useTransform } from 'motion/react';
+import { featured, type Work } from '../data/works';
 import { Arrow, Play } from './Icons';
-import { works } from '../data/works';
 import { Poster } from './Poster';
 import { portfolioEase } from './motion-presets';
 import type { OpenWork } from './HangingCard';
+import '../suspension.css';
+
+const openingFrames: Record<string, string> = {
+  W11: '/home/W11-first-frame.webp',
+  W15: '/home/W15-first-frame.webp',
+};
+
+function SuspendedFilm({ work, index, onOpen }: { work: Work; index: number; onOpen: OpenWork }) {
+  const reduced = useReducedMotion();
+  const [flipped, setFlipped] = useState(false);
+  const front = useRef<HTMLButtonElement>(null);
+  const play = useRef<HTMLButtonElement>(null);
+  const interacted = useRef(false);
+  const pitch = useSpring(0, { stiffness: 180, damping: 24 });
+  const yaw = useSpring(0, { stiffness: 160, damping: 22 });
+  const roll = useSpring(0, { stiffness: 140, damping: 18 });
+  const sheenX = useTransform(yaw, [-4.5, 4.5], ['15%', '85%']);
+  const sheenY = useTransform(pitch, [-2.5, 2.5], ['25%', '75%']);
+  const frontId = index === 0 ? 'hero-film' : `hero-film-${work.id}`;
+  const playId = `hero-play-${work.id}`;
+  const pictureWork = openingFrames[work.id] ? { ...work, poster: openingFrames[work.id] } : work;
+  const flip = (value: boolean) => { interacted.current = true; setFlipped(value); };
+  useEffect(() => {
+    if (interacted.current) (flipped ? play.current : front.current)?.focus({ preventScroll: true });
+  }, [flipped]);
+
+  return <motion.article className={`suspended-film suspended-film-${index}${flipped ? ' is-flipped' : ''}`} data-work-id={work.id}
+    initial={reduced ? false : { opacity: 0 }} animate={{ opacity: 1 }}
+    transition={{ duration: reduced ? 0 : .6, delay: reduced ? 0 : index * .09, ease: portfolioEase }}
+    onKeyDown={event => { if (event.key === 'Escape' && flipped) { event.stopPropagation(); flip(false); } }}>
+    <motion.div className="suspended-motion" style={{ rotateX: pitch, rotateY: yaw, rotateZ: roll }}
+      onPointerMove={event => {
+        if (reduced || event.pointerType !== 'mouse') return;
+        const box = event.currentTarget.getBoundingClientRect();
+        const x = Math.max(-.5, Math.min(.5, (event.clientX - box.left) / box.width - .5));
+        const y = Math.max(-.5, Math.min(.5, (event.clientY - box.top) / box.height - .5));
+        pitch.set(-y * 5); yaw.set(x * 9); roll.set(x * 3);
+      }}
+      onPointerLeave={() => { pitch.set(0); yaw.set(0); roll.set(0); }}>
+      <motion.div className="suspended-flipper" animate={{ rotateY: flipped ? 180 : 0 }} transition={{ duration: reduced ? 0 : .65, ease: portfolioEase }}>
+        <button ref={front} id={frontId} className="suspended-face suspended-front" inert={flipped} aria-hidden={flipped}
+          aria-label={`翻看${work.shortTitle}的作品信息`} aria-expanded={flipped} aria-controls={`hero-back-${work.id}`} onClick={() => flip(true)}>
+          <span className="suspended-meta"><span>{work.kind}</span><span>{work.projectType === '个人练习' ? '个人练习' : '工作作品'}</span></span>
+          <span className={`suspended-picture picture-${work.id}`}><Poster work={pictureWork} eager variant="frame" /></span>
+          <span className="suspended-caption"><strong>{work.shortTitle}</strong><span>{work.organization ?? '个人练习'}</span></span>
+          <span className="suspended-footer"><span>作品信息</span><span className="suspended-round"><Arrow /></span></span>
+        </button>
+        <motion.div id={`hero-back-${work.id}`} className="suspended-face suspended-back" inert={!flipped} aria-hidden={!flipped} style={{ backgroundPositionX: sheenX, backgroundPositionY: sheenY }}>
+          <div className="suspended-back-heading"><Poster work={pictureWork} variant="frame" /><div><span>{work.kind}</span><h2>{work.shortTitle}</h2></div></div>
+          <div className="suspended-responsibilities"><span>负责内容</span><ul>{work.responsibilities.map(item => <li key={item}>{item}</li>)}</ul></div>
+          <div className="suspended-actions">
+            <button ref={play} id={playId} className="suspended-watch" aria-label={`播放${work.shortTitle}`} onClick={() => onOpen(work, true, playId)}><Play />播放作品</button>
+          </div>
+          <div className="suspended-back-footer">
+            <button id={`hero-detail-${work.id}`} className="suspended-detail" onClick={() => onOpen(work, false, `hero-detail-${work.id}`)}>查看详情 <Arrow /></button>
+            <button className="suspended-return" aria-label={`翻回${work.shortTitle}封面`} onClick={() => flip(false)}>返回封面 <Arrow direction="left" /></button>
+          </div>
+        </motion.div>
+      </motion.div>
+    </motion.div>
+  </motion.article>;
+}
 
 export function PersonalIntro({ onOpen }: { onOpen: OpenWork }) {
-  const reduced = useReducedMotion();
-  const stage = useRef<HTMLElement>(null);
-  const work = works.find(item => item.id === 'W11')!;
-  const { scrollYProgress } = useScroll({ target: stage, offset: ['start start', 'end start'] });
-  const imageProgress = useSpring(scrollYProgress, { stiffness: 120, damping: 30, mass: .5 });
-  const imageY = useTransform(imageProgress, [0, 1], ['0%', '5%']);
-  const enter = (delay: number) => ({ initial: reduced ? false as const : { opacity: 0, y: 18 }, animate: { opacity: 1, y: 0 }, transition: { duration: reduced ? 0 : .72, delay: reduced ? 0 : delay, ease: portfolioEase } });
-  return <section ref={stage} className="edition-hero" id="selected" aria-label="开场作品：花舞瞬间" data-work-id={work.id}>
+  return <section className="suspension-hero" id="selected" aria-label="精选视频作品">
     <span id="intro" className="anchor-alias" />
-    <div className="hero-composition page-width">
-      <motion.div className="hero-visual" initial={reduced ? false : { opacity: 0, scale: 1.02 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: reduced ? 0 : .95, ease: portfolioEase }}>
-        <button id="hero-film" className="hero-film" aria-label="播放花舞瞬间" onClick={() => onOpen(work, true, 'hero-film')}>
-          <motion.div className="hero-image" style={reduced ? undefined : { y: imageY }}><Poster work={work} eager variant="frame" /></motion.div>
-          <span className="hero-image-shade" />
-          <span className="hero-film-index mono">FEATURED FILM / {work.duration}</span>
-          <span className="hero-play"><Play /><span className="mono">PLAY FILM</span></span>
-          <span className="hero-film-caption"><strong>{work.title}</strong><span>{work.kind} <i>/</i> <span className="mono">{work.duration}</span></span></span>
-          <span className="hero-film-arrow"><Arrow /></span>
-        </button>
-      </motion.div>
-      <div className="hero-type">
-        <motion.p className="hero-eyebrow mono" {...enter(.05)}><span />AIMEI HUANG — VIDEO PORTFOLIO 2026</motion.p>
-        <h1>{['视频拍摄', '与剪辑。'].map((line, index) => <span className="hero-line" key={line}><motion.span initial={reduced ? false : { y: '110%' }} animate={{ y: 0 }} transition={{ duration: reduced ? 0 : .85, delay: reduced ? 0 : .12 + index * .12, ease: portfolioEase }}>{line}</motion.span></span>)}</h1>
-        <motion.p className="hero-handwriting" {...enter(.24)}>Video shooting & editing.</motion.p>
-        <motion.div className="hero-introduction" {...enter(.32)}><p>你好，我是黄爱美。<br />这里收录了我的工作作品和个人练习。</p><a href="#works" className="hero-explore">查看全部作品 <Arrow direction="down" /></a></motion.div>
-      </div>
+    <div className="suspension-heading page-width">
+      <div><p>黄爱美 / 视频作品集</p><h1>视频拍摄<br /><span>与剪辑。</span></h1></div>
+      <a href="#works">查看全部作品 <Arrow direction="right" /></a>
     </div>
-    <div className="hero-bottom page-width"><a href="#works"><span className="scroll-tick" /><span className="mono">VIEW ALL WORKS</span></a><span className="hero-disciplines">拍摄 <i>/</i> 剪辑 <i>/</i> 视觉包装</span><span className="mono">{works.length} VIDEO WORKS</span></div>
+    <div className="suspension-viewport page-width"><div className="suspension-stage">
+      <img className="suspension-rig" src="/home/suspension-rig.png" width="2172" height="724" alt="" aria-hidden="true" />
+      {featured.map((work, index) => <SuspendedFilm key={work.id} work={work} index={index} onOpen={onOpen} />)}
+    </div></div>
   </section>;
 }
 
